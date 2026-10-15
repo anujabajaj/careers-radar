@@ -212,6 +212,26 @@ section > h2 { font-size: 22px; margin-bottom: 10px; color: var(--ink); }
 .res a { border: 0; border-top: 2px solid var(--ink); background: var(--sunk); }
 .res a:hover { border-top-color: var(--accent); }
 .res .o { font-family: var(--display); font-weight: 400; font-size: 21px; }
+.mast-actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.mast-book { font-size: 13px; font-weight: 700; color: var(--mast-fg); text-decoration: none; border: 2px solid var(--accent); padding: 4px 12px; }
+.mast-book:hover { background: var(--accent); color: var(--on-accent); }
+.book { border: 2px solid var(--ink); border-top: 8px solid var(--accent); padding: 18px 20px; display: grid; gap: 14px; background: var(--surface); scroll-margin-top: 12px; }
+.book-head { display: flex; flex-wrap: wrap; gap: 12px 24px; justify-content: space-between; align-items: flex-start; }
+.book-head > div:first-child { min-width: 0; flex: 1 1 320px; }
+.book h2 { font-size: 30px; line-height: 1.05; }
+.book-tip { margin: 6px 0 0; max-width: 70ch; }
+.book-cta { display: flex; flex-wrap: wrap; gap: 8px; }
+.btn.gold { background: var(--accent); border-color: var(--accent); color: var(--on-accent); font-weight: 700; }
+.btn.gold:hover { background: var(--ink); border-color: var(--ink); color: var(--bg); }
+.book-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
+@media (max-width: 900px) { .book-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 520px) { .book-grid { grid-template-columns: minmax(0, 1fr); } }
+.appt { background: var(--sunk); padding: 12px 14px; display: grid; gap: 4px; align-content: start; }
+.appt h3 { font-size: 21px; line-height: 1.1; }
+.appt p { margin: 0; font-size: 13.5px; color: var(--muted); }
+.appt .len { font-size: 11.5px; font-weight: 500; color: var(--link); }
+.book-foot { margin: 0; font-size: 13px; color: var(--muted); }
+.sel { user-select: all; color: var(--fg); font-weight: 600; }
 .foot { background: var(--mast-bg); color: var(--mast-muted); border-top: 6px solid var(--accent); font-size: 13px; }
 .foot-in { max-width: 1180px; margin: 0 auto; padding-inline: 16px; padding-block: 22px; display: flex; flex-wrap: wrap; gap: 8px 24px; justify-content: space-between; align-items: baseline; }
 .foot b { color: var(--mast-fg); font-family: var(--body); font-weight: 800; letter-spacing: .06em; }
@@ -225,7 +245,10 @@ section > h2 { font-size: 22px; margin-bottom: 10px; color: var(--ink); }
         <img class="logo" src="soas-economics-logo.png" alt="SOAS Economics" width="76" height="76">
         <span class="dept"><b>Department of Economics</b><span>SOAS University of London</span></span>
       </div>
-      <span class="cycle">Recruitment cycle 2026/27</span>
+      <div class="mast-actions">
+        <span class="cycle">Recruitment cycle 2026/27</span>
+        <a class="mast-book" href="#book">Book a careers appointment</a>
+      </div>
     </div>
     <h1>Economics Careers <em>Radar</em></h1>
     <p class="lede">Spring weeks, internships, placements and graduate roles for our undergraduate Economics students, sorted by the year you are in. Every listing links to the employer's own page and says when it was last checked.</p>
@@ -253,6 +276,26 @@ section > h2 { font-size: 22px; margin-bottom: 10px; color: var(--ink); }
       <div class="stat u"><span class="n" id="sSoon">–</span><span class="label">Close in 14 days</span></div>
       <div class="stat s"><span class="n" id="sComing">–</span><span class="label">Opening soon</span></div>
     </div>
+  </section>
+
+  <section class="book" id="book" aria-labelledby="bookTitle">
+    <div class="book-head">
+      <div>
+        <h2 id="bookTitle">Talk to SOAS Careers</h2>
+        <p class="book-tip" id="bookTip"></p>
+      </div>
+      <div class="book-cta">
+        <a class="btn gold" href="https://sits-prod.powerappsportals.com/" target="_blank" rel="noopener">Book a 15-minute appointment</a>
+        <a class="btn ghost" href="https://www.soas.ac.uk/careers-advice" target="_blank" rel="noopener">How booking works</a>
+      </div>
+    </div>
+    <div class="book-grid">
+      <div class="appt"><span class="len mono">15 min</span><h3>Application advice</h3><p>Feedback on your CV, cover letter or application form. Bring a printed copy. Afternoons in term time.</p></div>
+      <div class="appt"><span class="len mono">15 min</span><h3>Guidance</h3><p>Help choosing a career direction or developing an idea you already have. Monday to Friday, all year.</p></div>
+      <div class="appt"><span class="len mono">45 min</span><h3>Interview coaching</h3><p>For when you have an interview or assessment centre lined up. Book on CareersZONE with 48 hours' notice, after a referral.</p></div>
+      <div class="appt"><span class="len mono">45 min</span><h3>Careers discussion</h3><p>A longer conversation, by referral from a Guidance appointment. Booked on CareersZONE.</p></div>
+    </div>
+    <p class="book-foot">Bookings open at 10am each day, in person or online. You can book up to three appointments of the same type per semester. Contact: <span class="sel">careers@soas.ac.uk</span> · <span class="sel">020 7898 4115</span> · Room SL62 · <a href="https://careers.soas.ac.uk/appointments" target="_blank" rel="noopener">CareersZONE appointments</a></p>
   </section>
 
   <section>
@@ -439,7 +482,14 @@ section > h2 { font-size: 22px; margin-bottom: 10px; color: var(--ink); }
     </article>`;
   }
 
+  const BOOK_TIP = {
+    "1": "Year 1: book Guidance if you're not sure which sectors to try, and Application advice before you send spring week applications. Many spring weeks close in November.",
+    "2": "Year 2: book Application advice to sharpen your CV and cover letter for internships, and Interview coaching as soon as you're invited to an interview or assessment centre.",
+    "3": "Year 3: book Guidance to weigh up graduate schemes, further study and other options, and Interview coaching before final rounds.",
+    "all": "Free one-to-one help from the SOAS Careers team for every year group. Choose your year above for advice on what to book."
+  };
   function renderGuide() {
+    $("#bookTip").textContent = BOOK_TIP[state.year];
     const g = GUIDE[state.year];
     $("#guideText").innerHTML = `<h2>${esc(g.h)}</h2><p>${esc(g.p)}</p><ul>${g.li.map(x => `<li>${esc(x)}</li>`).join("")}</ul>`;
     document.querySelectorAll(".years button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.year === state.year)));
