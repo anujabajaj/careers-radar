@@ -1,0 +1,629 @@
+<title>Economics Careers Radar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Mulish:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: SOAS masthead (black band, gold rule) over a flat, square-cornered list. Colours from the SOAS website: black, white, SOAS gold, teal, purple, cream, red.
+   Fonts: SOAS uses Canela + Museo Sans (licensed); Instrument Serif + Mulish stand in. */
+:root {
+  --bg: #ffffff;
+  --surface: #ffffff;
+  --sunk: #f6efe4;         /* SOAS cream, lightened */
+  --cream: #f0e1cf;        /* SOAS cream */
+  --fg: #111111;
+  --muted: #55524d;
+  --line: #ddd5c8;
+  --ink: #000000;          /* headings */
+  --link: #006a7c;         /* SOAS teal */
+  --accent: #f2a900;       /* SOAS gold: fills and rules only, never text on white */
+  --accent-soft: #fdf1d2;
+  --on-accent: #000000;
+  --mast-bg: #000000; --mast-fg: #ffffff; --mast-muted: #bdb8ae;
+  --open: #006a7c;   --open-bg: #dff0f2;
+  --soon: #7a4f00;   --soon-bg: #fdf1d2;
+  --urgent: #b3261c; --urgent-bg: #fbe3e0;
+  --closed: #6b6862; --closed-bg: #efede9;
+  --unknown: #5c068c; --unknown-bg: #efe3f6;
+  --display: "Instrument Serif", Georgia, "Times New Roman", serif;
+  --body: "Mulish", "Segoe UI", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0b0b0b; --surface: #141414; --sunk: #1d1b17; --cream: #3a3226; --fg: #f4f1ea; --muted: #aaa49a; --line: #2f2c27;
+  --ink: #ffffff; --link: #6ad1e3; --accent: #f2a900; --accent-soft: #3a2d08; --on-accent: #000000;
+  --mast-bg: #000000; --mast-fg: #ffffff; --mast-muted: #bdb8ae;
+  --open: #6ad1e3; --open-bg: #0f2d33; --soon: #f2c14e; --soon-bg: #3a2d08;
+  --urgent: #ff7d70; --urgent-bg: #3d1714; --closed: #8f8b84; --closed-bg: #22201d;
+  --unknown: #cfa3ea; --unknown-bg: #2a1638; color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #0b0b0b; --surface: #141414; --sunk: #1d1b17; --cream: #3a3226; --fg: #f4f1ea; --muted: #aaa49a; --line: #2f2c27;
+  --ink: #ffffff; --link: #6ad1e3; --accent: #f2a900; --accent-soft: #3a2d08; --on-accent: #000000;
+  --mast-bg: #000000; --mast-fg: #ffffff; --mast-muted: #bdb8ae;
+  --open: #6ad1e3; --open-bg: #0f2d33; --soon: #f2c14e; --soon-bg: #3a2d08;
+  --urgent: #ff7d70; --urgent-bg: #3d1714; --closed: #8f8b84; --closed-bg: #22201d;
+  --unknown: #cfa3ea; --unknown-bg: #2a1638; color-scheme: dark; }
+
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 15px; line-height: 1.5; }
+.wrap { max-width: 1180px; margin: 0 auto; padding-inline: 16px; padding-block: 24px 64px; display: grid; grid-template-columns: minmax(0, 1fr); gap: 28px; }
+.wrap > * { min-width: 0; }
+a { color: var(--link); text-decoration-color: var(--accent); text-underline-offset: 3px; }
+:focus-visible { outline: 3px solid #6ad1e3; outline-offset: 2px; }
+h1, h2, h3 { font-family: var(--display); font-weight: 400; text-wrap: balance; margin: 0; letter-spacing: 0; }
+.label { font-size: 11.5px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.mono { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+
+/* Masthead: SOAS black band with gold rule */
+.mast { background: var(--mast-bg); color: var(--mast-fg); border-bottom: 6px solid var(--accent); }
+.mast-in { max-width: 1180px; margin: 0 auto; padding-inline: 16px; padding-block: 18px 30px; display: grid; gap: 22px; }
+.lockup { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; justify-content: space-between; }
+.wordmark { display: flex; align-items: stretch; gap: 14px; text-decoration: none; color: var(--mast-fg); }
+.wordmark .logo { display: block; width: 76px; height: 76px; flex: 0 0 auto; }
+.foot .logo { display: inline-block; width: 36px; height: 36px; vertical-align: middle; margin-right: 10px; }
+.wordmark .dept { border-left: 2px solid var(--accent); padding-left: 14px; display: grid; align-content: center; font-size: 12.5px; line-height: 1.25; }
+.wordmark .dept b { font-weight: 700; font-size: 14px; }
+.wordmark .dept span { color: var(--mast-muted); }
+.cycle { font-size: 11.5px; letter-spacing: .1em; text-transform: uppercase; font-weight: 700; color: var(--on-accent); background: var(--accent); padding: 5px 10px; }
+.mast h1 { font-size: clamp(44px, 8vw, 84px); line-height: .95; color: var(--mast-fg); }
+.mast h1 em { color: var(--accent); }
+.mast .lede { max-width: 64ch; color: var(--mast-muted); margin: 0; font-size: 16px; }
+.mast .meta { display: flex; flex-wrap: wrap; gap: 6px 22px; font-size: 13px; color: var(--mast-muted); }
+.mast .meta b { color: var(--mast-fg); font-weight: 700; }
+.lede { margin: 0; }
+
+/* Year switch */
+.years { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0; border: 2px solid var(--ink); background: var(--surface); }
+.years button { all: unset; cursor: pointer; padding: 14px 16px; display: grid; gap: 2px; border-right: 2px solid var(--ink); min-width: 0; }
+.years button:last-child { border-right: 0; }
+.years button .y { font-family: var(--display); font-size: 26px; line-height: 1.1; color: var(--fg); }
+.years button .d { font-size: 12.5px; color: var(--muted); font-weight: 600; }
+.years button:hover { background: var(--sunk); }
+.years button[aria-pressed="true"] { background: var(--accent); }
+.years button[aria-pressed="true"] .y, .years button[aria-pressed="true"] .d { color: var(--on-accent); }
+.years button:focus-visible { outline-offset: -3px; }
+@media (max-width: 640px) { .years { grid-template-columns: repeat(2, minmax(0,1fr)); } .years button:nth-child(2) { border-right: 0; } .years button:nth-child(-n+2) { border-bottom: 1px solid var(--line); } }
+
+/* Guidance */
+.guide { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 20px; align-items: start; }
+@media (max-width: 820px) { .guide { grid-template-columns: minmax(0,1fr); } }
+.guide h2 { font-size: 24px; color: var(--ink); margin-bottom: 6px; }
+.guide p { margin: 0 0 8px; max-width: 65ch; }
+.guide ul { margin: 6px 0 0; padding-left: 18px; display: grid; gap: 4px; }
+.stats { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 10px; }
+.stat { background: var(--surface); border: 1px solid var(--line); border-radius: 2px; padding: 12px 14px; display: grid; gap: 2px; }
+.stat .n { font-family: var(--display); font-size: 30px; font-weight: 700; line-height: 1; font-variant-numeric: tabular-nums; }
+.stat.o .n { color: var(--open); } .stat.u .n { color: var(--urgent); } .stat.s .n { color: var(--soon); }
+
+/* Deadline strip */
+.strip-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; margin-bottom: 10px; flex-wrap: wrap; }
+.strip-head h2 { font-size: 20px; }
+.strip { display: flex; gap: 10px; overflow-x: auto; padding-bottom: 6px; scroll-snap-type: x proximity; }
+.dl { flex: 0 0 220px; scroll-snap-align: start; background: var(--surface); border: 1px solid var(--line); border-radius: 2px; padding: 12px; display: grid; gap: 4px; text-decoration: none; color: inherit; }
+.dl:hover { border-color: var(--accent); }
+.dl .when { font-family: var(--mono); font-size: 12.5px; font-weight: 500; }
+.dl .when.hot { color: var(--urgent); } .dl .when.warm { color: var(--soon); }
+.dl .org { font-weight: 600; } .dl .t { font-size: 13px; color: var(--muted); }
+.empty-note { color: var(--muted); font-size: 14px; padding: 12px; border: 1px dashed var(--line); border-radius: 2px; }
+
+/* Filters */
+.filters { display: grid; gap: 12px; background: var(--surface); border: 1px solid var(--line); border-radius: 2px; padding: 14px; position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; }
+.frow { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.chip { all: unset; cursor: pointer; font-size: 13px; padding: 5px 11px; border-radius: 2px; border: 1px solid var(--line); color: var(--fg); background: var(--surface); }
+.chip[aria-pressed="true"] { background: var(--accent-soft); border-color: var(--accent); color: var(--fg); font-weight: 600; }
+.chip .c { color: var(--muted); font-family: var(--mono); font-size: 11.5px; margin-left: 4px; }
+input[type=search], select { font: inherit; font-size: 14px; color: var(--fg); background: var(--bg); border: 1px solid var(--line); border-radius: 2px; padding: 7px 10px; min-width: 0; }
+input[type=search] { flex: 1 1 220px; }
+.toggle { display: inline-flex; gap: 6px; align-items: center; font-size: 13.5px; cursor: pointer; }
+.toggle input { accent-color: var(--accent); }
+.count { margin-left: auto; font-size: 13px; color: var(--muted); }
+
+/* List */
+.list { display: grid; gap: 10px; }
+.opp { background: var(--surface); border: 1px solid var(--line); border-radius: 2px; padding: 14px 16px; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 6px 18px; }
+.opp.is-closed { opacity: .72; }
+.opp .head { display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; min-width: 0; }
+.opp .org { font-family: var(--display); font-size: 18px; font-weight: 700; }
+.opp .title { font-weight: 500; }
+.opp .tags { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: 12px; }
+.tag { padding: 2px 8px; border-radius: 2px; background: var(--sunk); color: var(--fg); }
+.tag.yr { font-family: var(--mono); font-size: 11.5px; }
+.pill { padding: 2px 9px; border-radius: 2px; font-weight: 600; font-size: 12px; }
+.pill.open { background: var(--open-bg); color: var(--open); }
+.pill.opening_soon { background: var(--soon-bg); color: var(--soon); }
+.pill.closed { background: var(--closed-bg); color: var(--closed); }
+.pill.unknown { background: var(--unknown-bg); color: var(--unknown); }
+.conf { font-size: 12px; color: var(--muted); display: inline-flex; gap: 4px; align-items: center; }
+.conf.est { color: var(--soon); }
+.opp .more { grid-column: 1 / -1; font-size: 13.5px; }
+.opp .more summary { cursor: pointer; color: var(--ink); font-weight: 500; font-size: 13px; width: fit-content; }
+.opp .more[open] summary { margin-bottom: 6px; }
+.opp .more > div { display: grid; gap: 6px; }
+.opp .notes { font-size: 14px; color: var(--muted); margin: 0; max-width: 90ch; }
+.opp .visa { font-size: 13px; margin: 0; }
+.showmore { justify-self: center; }
+
+/* Tabs */
+.tabbar { display: flex; flex-wrap: wrap; gap: 8px 4px; align-items: center; border-bottom: 1px solid var(--line); }
+.tab { all: unset; cursor: pointer; padding: 10px 14px; font-weight: 600; font-size: 14.5px; color: var(--muted); border-bottom: 3px solid transparent; margin-bottom: -1px; }
+.tab[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+.tab:focus-visible { outline-offset: -3px; }
+.tabbar .dlx { margin-left: auto; margin-bottom: 6px; }
+.dlx-msg { font-size: 12.5px; color: var(--muted); }
+.panel { display: grid; gap: 14px; }
+.opp .visa b { font-weight: 600; }
+.side { display: grid; gap: 6px; justify-items: end; align-content: start; text-align: right; }
+.deadline { font-family: var(--mono); font-size: 13px; font-variant-numeric: tabular-nums; }
+.deadline .left { display: block; font-size: 12px; }
+.left.hot { color: var(--urgent); font-weight: 500; } .left.warm { color: var(--soon); }
+.actions { display: flex; gap: 6px; flex-wrap: wrap; justify-content: flex-end; }
+.btn { font: inherit; font-size: 13px; font-weight: 600; text-decoration: none; padding: 6px 12px; border-radius: 2px; background: var(--ink); color: var(--bg); border: 1px solid var(--ink); cursor: pointer; white-space: nowrap; }
+.btn.ghost { background: transparent; color: var(--fg); border-color: var(--line); font-weight: 500; }
+.btn.ghost[aria-pressed="true"] { border-color: var(--accent); background: var(--accent-soft); }
+.foot-meta { grid-column: 1 / -1; font-size: 12px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 4px 14px; }
+@media (max-width: 640px) { .opp { grid-template-columns: minmax(0,1fr); } .side { justify-items: start; text-align: left; } .actions { justify-content: flex-start; } }
+
+/* Calendar */
+.cal-wrap { overflow-x: auto; background: var(--surface); border: 1px solid var(--line); border-radius: 2px; padding: 14px; }
+table.cal { border-collapse: collapse; width: 100%; min-width: 760px; font-size: 13px; }
+.cal th, .cal td { padding: 6px 4px; text-align: left; border-bottom: 1px solid var(--line); }
+.cal th { font-weight: 600; color: var(--muted); font-size: 12px; }
+.cal td.row { font-weight: 600; white-space: nowrap; padding-right: 12px; }
+.cal td.m { width: 7%; }
+.bar { height: 14px; border-radius: 2px; }
+.bar.apply { background: var(--accent); }
+.bar.peak { background: var(--urgent); }
+.bar.do { background: var(--ink); opacity: .55; }
+.bar.now { outline: 2px solid var(--fg); outline-offset: 1px; }
+.legend { display: flex; flex-wrap: wrap; gap: 14px; font-size: 12.5px; color: var(--muted); margin-top: 10px; }
+.legend i { display: inline-block; width: 14px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: middle; }
+
+section > h2 { font-size: 22px; margin-bottom: 10px; color: var(--ink); }
+.res { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 10px; }
+.res a { display: grid; gap: 2px; padding: 12px 14px; background: var(--surface); border: 1px solid var(--line); border-radius: 2px; text-decoration: none; color: inherit; }
+.res a:hover { border-color: var(--accent); }
+.res .o { font-weight: 600; } .res .n { font-size: 13px; color: var(--muted); }
+.method { font-size: 14px; color: var(--muted); max-width: 75ch; display: grid; gap: 8px; }
+.method p { margin: 0; }
+.loading { padding: 20px; color: var(--muted); }
+
+/* SOAS editorial overrides: ruled list instead of boxed cards, serif names, gold rules */
+.list { gap: 0; border-top: 2px solid var(--ink); }
+.opp { border: 0; border-bottom: 1px solid var(--line); background: transparent; padding: 16px 2px; }
+.opp .org { font-weight: 400; font-size: 24px; line-height: 1.1; color: var(--ink); }
+.opp .title { font-weight: 600; }
+.opp .more summary { color: var(--link); font-weight: 600; }
+.guide { background: var(--sunk); padding: 20px; }
+.guide h2 { font-size: 32px; line-height: 1.05; }
+.guide li::marker { color: var(--accent); }
+.stat { border: 0; border-top: 4px solid var(--ink); background: var(--surface); }
+.stat .n { font-weight: 400; font-size: 44px; }
+.strip-head h2, section > h2 { font-size: 30px; line-height: 1.05; }
+.dl { border: 1px solid var(--line); border-top: 4px solid var(--accent); }
+.dl:hover { border-color: var(--ink); border-top-color: var(--accent); }
+.dl .org { font-weight: 700; }
+.chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
+.filters { border: 0; border-top: 2px solid var(--ink); border-bottom: 1px solid var(--line); padding: 14px 0; background: var(--bg); }
+.tabbar { border-bottom: 2px solid var(--ink); }
+.tab { color: var(--muted); border-bottom-width: 5px; margin-bottom: -2px; }
+.tab[aria-selected="true"] { color: var(--ink); }
+.btn:hover { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
+.btn.ghost:hover { background: var(--sunk); border-color: var(--ink); color: var(--fg); }
+.res a { border: 0; border-top: 2px solid var(--ink); background: var(--sunk); }
+.res a:hover { border-top-color: var(--accent); }
+.res .o { font-family: var(--display); font-weight: 400; font-size: 21px; }
+.foot { background: var(--mast-bg); color: var(--mast-muted); border-top: 6px solid var(--accent); font-size: 13px; }
+.foot-in { max-width: 1180px; margin: 0 auto; padding-inline: 16px; padding-block: 22px; display: flex; flex-wrap: wrap; gap: 8px 24px; justify-content: space-between; align-items: baseline; }
+.foot b { color: var(--mast-fg); font-family: var(--body); font-weight: 800; letter-spacing: .06em; }
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }
+</style>
+
+<header class="mast">
+  <div class="mast-in">
+    <div class="lockup">
+      <div class="wordmark" aria-label="SOAS University of London, Department of Economics">
+        <img class="logo" src="soas-economics-logo.png" alt="SOAS Economics" width="76" height="76">
+        <span class="dept"><b>Department of Economics</b><span>SOAS University of London</span></span>
+      </div>
+      <span class="cycle">Recruitment cycle 2026/27</span>
+    </div>
+    <h1>Economics Careers <em>Radar</em></h1>
+    <p class="lede">Spring weeks, internships, placements and graduate roles for our undergraduate Economics students, sorted by the year you are in. Every listing links to the employer's own page and says when it was last checked.</p>
+    <div class="meta">
+      <span>Last checked: <b id="checkedAt">loading…</b></span>
+      <span><b id="totalCount">–</b> listings</span>
+      <span>Always confirm details on the employer's site before applying.</span>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <nav class="years" aria-label="Choose your year">
+    <button type="button" data-year="1" aria-pressed="false"><span class="y">Year 1</span><span class="d">Spring weeks &amp; insight</span></button>
+    <button type="button" data-year="2" aria-pressed="false"><span class="y">Year 2</span><span class="d">Summer internships</span></button>
+    <button type="button" data-year="3" aria-pressed="false"><span class="y">Year 3</span><span class="d">Graduate roles</span></button>
+    <button type="button" data-year="all" aria-pressed="true"><span class="y">All years</span><span class="d">Everything</span></button>
+  </nav>
+
+  <section class="guide" aria-live="polite">
+    <div id="guideText"></div>
+    <div class="stats">
+      <div class="stat o"><span class="n" id="sOpen">–</span><span class="label">Open now</span></div>
+      <div class="stat u"><span class="n" id="sSoon">–</span><span class="label">Close in 14 days</span></div>
+      <div class="stat s"><span class="n" id="sComing">–</span><span class="label">Opening soon</span></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="strip-head"><h2>Next deadlines</h2><span class="label">Fixed dates only · rolling deadlines can close earlier</span></div>
+    <div class="strip" id="strip"></div>
+  </section>
+
+  <div class="tabbar" role="tablist" aria-label="Sections">
+    <button type="button" class="tab" role="tab" id="tab-listings" data-tab="listings" aria-selected="true" aria-controls="panel-listings">Listings</button>
+    <button type="button" class="tab" role="tab" id="tab-calendar" data-tab="calendar" aria-selected="false" aria-controls="panel-calendar">When to apply</button>
+    <button type="button" class="tab" role="tab" id="tab-links" data-tab="links" aria-selected="false" aria-controls="panel-links">Useful links</button>
+    <button type="button" class="tab" role="tab" id="tab-about" data-tab="about" aria-selected="false" aria-controls="panel-about">How it's checked</button>
+    <button type="button" class="btn dlx" id="dlx" hidden title="Every listing, a sheet per year group, and your saved and applied marks">Download Excel</button>
+  </div>
+  <span class="dlx-msg" id="dlxMsg" hidden></span>
+
+  <section class="panel" id="panel-listings" role="tabpanel" aria-labelledby="tab-listings">
+    <div class="filters" role="search">
+      <div class="frow" id="typeChips" aria-label="Programme type"></div>
+      <div class="frow">
+        <input type="search" id="q" placeholder="Search firm, role or keyword" aria-label="Search listings">
+        <select id="sector" aria-label="Sector"><option value="">All sectors</option></select>
+        <select id="sort" aria-label="Sort">
+          <option value="deadline">Soonest deadline</option>
+          <option value="org">Firm A–Z</option>
+          <option value="status">Open first</option>
+        </select>
+        <label class="toggle"><input type="checkbox" id="openOnly"> Open or opening only</label>
+        <label class="toggle"><input type="checkbox" id="savedOnly"> My shortlist</label>
+        <span class="count" id="count"></span>
+      </div>
+    </div>
+    <div class="list" id="list" aria-live="polite"><div class="loading">Loading listings…</div></div>
+    <button type="button" class="btn ghost showmore" id="showMore" hidden>Show more</button>
+  </section>
+
+  <section class="panel" id="panel-calendar" role="tabpanel" aria-labelledby="tab-calendar" hidden>
+    <h2>When to apply: the recruitment year</h2>
+    <div class="cal-wrap"><table class="cal" id="cal"></table></div>
+    <div class="legend">
+      <span><i style="background:var(--accent)"></i>Applications usually open</span>
+      <span><i style="background:var(--urgent)"></i>Busiest window: apply early</span>
+      <span><i style="background:var(--ink);opacity:.55"></i>Programme runs</span>
+      <span><i style="outline:2px solid var(--fg)"></i>This month</span>
+    </div>
+  </section>
+
+  <section class="panel" id="panel-links" role="tabpanel" aria-labelledby="tab-links" hidden>
+    <h2>Useful places to look</h2>
+    <div class="res" id="resources"></div>
+  </section>
+
+  <section class="panel" id="panel-about" role="tabpanel" aria-labelledby="tab-about" hidden>
+    <h2>How this is kept accurate</h2>
+    <div class="method">
+      <p>Each listing is researched from the employer's own careers pages and re-checked on a regular schedule. The date each listing was last checked is shown on it.</p>
+      <p><b>Confirmed</b> means the employer's page for this cycle shows the details. <b>Estimated</b> means this cycle's page wasn't published yet, so the timing is based on last year: check the employer's site before relying on it.</p>
+      <p>Many banks and consultancies recruit on a <b>rolling basis</b> and close once they have enough applicants, often weeks before any published deadline. Apply as early as you can.</p>
+      <p>Always confirm eligibility, visa sponsorship and the deadline on the employer's site. If you spot something wrong, tell the person who shared this page.</p>
+    </div>
+  </section>
+</div>
+
+<footer class="foot">
+  <div class="foot-in">
+    <span><img class="logo" src="soas-economics-logo.png" alt="SOAS Economics" width="36" height="36">Department of Economics · Economics Careers Radar 2026/27</span>
+    <span>Listings are re-checked twice a week. Confirm every detail on the employer's site.</span>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<script>
+(() => {
+  const TYPES = {
+    spring: "Spring week", insight: "Insight / open day", internship: "Summer internship",
+    placement: "Placement year", graduate: "Graduate role", diversity: "Access programme",
+    competition: "Competition", resource: "Resource"
+  };
+  const GUIDE = {
+    "1": { h: "Year 1: get a spring week", p: "Spring weeks are short paid or unpaid programmes, usually at Easter, for first-years on a three-year degree. Many firms fast-track spring week students straight to next year's internship.", li: ["Most open September to November and close by January, often earlier on a rolling basis.", "Apply to several: banks, asset managers, Big 4 and the Bank of England all run them.", "Look at access programmes too (SEO London, upReach, 10,000 Black Interns) if you're eligible."] },
+    "2": { h: "Year 2: secure a summer internship", p: "Penultimate-year summer internships are the main route into graduate jobs in finance, consulting and economics consultancy. Strong interns usually receive a graduate offer.", li: ["Banks and consultancies open July to October and fill places on a rolling basis through the autumn.", "The Government Economic Service and Civil Service SDIP run separate summer schemes.", "Considering a year in industry? Placement-year roles are listed here too."] },
+    "3": { h: "Year 3: land a graduate role", p: "Graduate programmes for September 2027 starts open in the autumn of your final year. Economic consultancies, the GES and regulators hire economists directly.", li: ["Most finance and consulting graduate roles close between October and December.", "Public sector schemes (GES, Bank of England, FCA) have their own fixed windows: check the dates.", "If you did an internship, ask about a return offer before applying elsewhere."] },
+    "all": { h: "Every year group", p: "Pick your year above to see what's right for you now. Year 1 is about spring weeks, Year 2 about summer internships, Year 3 about graduate roles.", li: ["Deadlines shown are the employer's own published dates.", "Rolling deadlines can close early, so apply as soon as you're ready.", "Star a listing to add it to your shortlist on this device."] }
+  };
+  // Typical UK recruitment calendar, Sep -> Aug. a = applications open, p = busiest window, d = programme runs
+  const MONTHS = ["Sep","Oct","Nov","Dec","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug"];
+  const CAL = [
+    { row: "Spring weeks (Y1)", cells: "ppaaa..d...." },
+    { row: "Summer internships (Y2)", cells: "ppaaa....ddd" },
+    { row: "Placement year (Y2)", cells: "ppaaaaa....d" },
+    { row: "Graduate roles (Y3)", cells: "ppaaaaa....." },
+    { row: "Civil Service SDIP / GES", cells: ".aa.aa...dd." },
+    { row: "Access programmes", cells: "aaaaaaaaa..." }
+  ];
+
+  const store = {
+    get(k, d) { try { const v = localStorage.getItem(k); return v == null ? d : JSON.parse(v); } catch { return d; } },
+    set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} }
+  };
+  const state = {
+    year: store.get("radar.year", "all"),
+    types: new Set(),
+    q: "", sector: "", sort: "deadline", limit: 20,
+    openOnly: false, savedOnly: false,
+    saved: new Set(store.get("radar.saved", [])),
+    applied: new Set(store.get("radar.applied", []))
+  };
+  let DATA = [], META = {};
+  const $ = (s) => document.querySelector(s);
+  const today = new Date(); today.setHours(0,0,0,0);
+  const parse = (s) => { if (!s) return null; const [y,m,d] = s.split("-").map(Number); return new Date(y, m-1, d); };
+  const daysTo = (s) => { const d = parse(s); return d ? Math.round((d - today) / 864e5) : null; };
+  const fmt = (s) => { const d = parse(s); return d ? d.toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" }) : ""; };
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
+  const safeUrl = (u) => /^https?:\/\//i.test(u || "") ? u : null;
+
+  function liveStatus(o) {
+    const dl = daysTo(o.deadline), op = daysTo(o.opens);
+    if (dl !== null && dl < 0) return "closed";
+    if (o.status === "closed") return "closed";
+    if (op !== null && op > 0) return "opening_soon";
+    if (o.status === "opening_soon" && op !== null && op <= 0) return "open";
+    return o.status || "unknown";
+  }
+  const STATUS_LABEL = { open: "Open", opening_soon: "Opening soon", closed: "Closed", unknown: "Check site" };
+
+  function inYear(o) { return state.year === "all" || (o.years || []).includes(Number(state.year)); }
+
+  function filtered() {
+    const q = state.q.trim().toLowerCase();
+    let rows = DATA.filter(o => o.type !== "resource" && inYear(o));
+    if (state.types.size) rows = rows.filter(o => state.types.has(o.type));
+    if (state.sector) rows = rows.filter(o => o.sector === state.sector);
+    if (state.openOnly) rows = rows.filter(o => ["open","opening_soon"].includes(liveStatus(o)));
+    if (state.savedOnly) rows = rows.filter(o => state.saved.has(o.id));
+    if (q) rows = rows.filter(o => [o.org,o.title,o.sector,o.notes,o.location].join(" ").toLowerCase().includes(q));
+    const rank = { open: 0, opening_soon: 1, unknown: 2, closed: 3 };
+    const dkey = (o) => { const s = liveStatus(o); const d = daysTo(o.deadline); return s === "closed" ? 1e6 + (d ?? 0) : (d ?? 5e5); };
+    rows.sort((a, b) => {
+      if (state.sort === "org") return a.org.localeCompare(b.org) || a.title.localeCompare(b.title);
+      if (state.sort === "status") return rank[liveStatus(a)] - rank[liveStatus(b)] || dkey(a) - dkey(b);
+      return dkey(a) - dkey(b) || rank[liveStatus(a)] - rank[liveStatus(b)] || a.org.localeCompare(b.org);
+    });
+    return rows;
+  }
+
+  function leftText(o) {
+    const d = daysTo(o.deadline);
+    if (d === null) return "";
+    if (d < 0) return `<span class="left">closed</span>`;
+    const cls = d <= 7 ? "hot" : d <= 21 ? "warm" : "";
+    return `<span class="left ${cls}">${d === 0 ? "closes today" : d === 1 ? "1 day left" : d + " days left"}</span>`;
+  }
+
+  function card(o) {
+    const st = liveStatus(o);
+    const url = safeUrl(o.url), src = safeUrl(o.source);
+    const yrs = (o.years || []).map(y => `<span class="tag yr">Y${y}</span>`).join("");
+    const saved = state.saved.has(o.id), applied = state.applied.has(o.id);
+    const conf = o.confidence === "confirmed"
+      ? `<span class="conf" title="Shown on the employer's page for this cycle">✓ Confirmed</span>`
+      : `<span class="conf est" title="Based on last cycle or a third-party tracker">≈ Estimated: check site</span>`;
+    const dlBlock = o.deadline
+      ? `<div class="deadline">Deadline ${esc(fmt(o.deadline))}${leftText(o)}</div>`
+      : `<div class="deadline">${esc(o.deadline_note ? "No fixed deadline" : "Deadline not published")}</div>`;
+    const opens = o.opens && daysTo(o.opens) > 0 ? `<div class="deadline">Opens ${esc(fmt(o.opens))}</div>` : "";
+    return `<article class="opp ${st === "closed" ? "is-closed" : ""}">
+      <div style="display:grid;gap:6px;min-width:0">
+        <div class="head"><span class="org">${esc(o.org)}</span><span class="title">${esc(o.title)}</span></div>
+        <div class="tags"><span class="pill ${st}">${STATUS_LABEL[st]}</span><span class="tag">${esc(TYPES[o.type] || o.type)}</span><span class="tag">${esc(o.sector)}</span>${yrs}${o.location ? `<span class="tag">${esc(o.location)}</span>` : ""}${conf}</div>
+      </div>
+      <div class="side">${dlBlock}${opens}
+        <div class="actions">
+          <button type="button" class="btn ghost" data-save="${esc(o.id)}" aria-pressed="${saved}" title="Add to your shortlist on this device">${saved ? "★ Saved" : "☆ Save"}</button>
+          <button type="button" class="btn ghost" data-applied="${esc(o.id)}" aria-pressed="${applied}">${applied ? "✓ Applied" : "Mark applied"}</button>
+          ${url ? `<a class="btn" href="${esc(url)}" target="_blank" rel="noopener">Apply / details</a>` : ""}
+        </div>
+      </div>
+      <details class="more"><summary>Details${o.visa ? " · right to work" : ""}</summary><div>
+        ${o.notes || o.deadline_note ? `<p class="notes">${esc(o.notes)}${o.deadline_note ? ` <b>Timing:</b> ${esc(o.deadline_note)}` : ""}</p>` : ""}
+        ${o.visa ? `<p class="visa"><b>Right to work:</b> ${esc(o.visa)}</p>` : ""}
+        <div class="foot-meta"><span>Checked ${esc(fmt(o.checked))}</span>${src && src !== url ? `<a href="${esc(src)}" target="_blank" rel="noopener">Source</a>` : ""}</div>
+      </div></details>
+    </article>`;
+  }
+
+  function renderGuide() {
+    const g = GUIDE[state.year];
+    $("#guideText").innerHTML = `<h2>${esc(g.h)}</h2><p>${esc(g.p)}</p><ul>${g.li.map(x => `<li>${esc(x)}</li>`).join("")}</ul>`;
+    document.querySelectorAll(".years button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.year === state.year)));
+    const pool = DATA.filter(o => o.type !== "resource" && inYear(o));
+    $("#sOpen").textContent = pool.filter(o => liveStatus(o) === "open").length;
+    $("#sSoon").textContent = pool.filter(o => { const d = daysTo(o.deadline); return d !== null && d >= 0 && d <= 14; }).length;
+    $("#sComing").textContent = pool.filter(o => liveStatus(o) === "opening_soon").length;
+  }
+
+  function renderStrip() {
+    const rows = DATA.filter(o => o.type !== "resource" && inYear(o) && o.deadline && daysTo(o.deadline) >= 0)
+      .sort((a, b) => daysTo(a.deadline) - daysTo(b.deadline)).slice(0, 12);
+    $("#strip").innerHTML = rows.length ? rows.map(o => {
+      const d = daysTo(o.deadline), cls = d <= 7 ? "hot" : d <= 21 ? "warm" : "";
+      const url = safeUrl(o.url);
+      return `<a class="dl" ${url ? `href="${esc(url)}" target="_blank" rel="noopener"` : ""}><span class="when ${cls}">${esc(fmt(o.deadline))} · ${d === 0 ? "today" : d + "d"}</span><span class="org">${esc(o.org)}</span><span class="t">${esc(o.title)}</span></a>`;
+    }).join("") : `<div class="empty-note">No fixed deadlines coming up for this year group. Most listings here recruit on a rolling basis, so apply early.</div>`;
+  }
+
+  function renderChips() {
+    const pool = DATA.filter(o => o.type !== "resource" && inYear(o));
+    const counts = {}; pool.forEach(o => counts[o.type] = (counts[o.type] || 0) + 1);
+    $("#typeChips").innerHTML = Object.keys(TYPES).filter(t => t !== "resource" && counts[t])
+      .map(t => `<button type="button" class="chip" data-type="${t}" aria-pressed="${state.types.has(t)}">${TYPES[t]}<span class="c">${counts[t]}</span></button>`).join("");
+  }
+
+  const PAGE = 20;
+  function renderList() {
+    const rows = filtered();
+    const shown = rows.slice(0, state.limit);
+    $("#count").textContent = rows.length > shown.length ? `${shown.length} of ${rows.length}` : `${rows.length} shown`;
+    $("#list").innerHTML = rows.length ? shown.map(card).join("")
+      : `<div class="empty-note">Nothing matches these filters. Try clearing the search or switching off "Open or opening only".</div>`;
+    const more = rows.length - shown.length;
+    $("#showMore").hidden = more <= 0;
+    $("#showMore").textContent = `Show ${Math.min(PAGE, more)} more (${more} left)`;
+  }
+  function resetList() { state.limit = PAGE; renderList(); }
+
+  function showTab(name) {
+    document.querySelectorAll(".tab").forEach(t => t.setAttribute("aria-selected", String(t.dataset.tab === name)));
+    document.querySelectorAll(".panel").forEach(p => p.hidden = p.id !== "panel-" + name);
+    store.set("radar.tab", name);
+  }
+
+  // Excel export: all listings, one sheet per year group, plus links; includes this viewer's saved/applied marks.
+  function toRow(o) {
+    const d = daysTo(o.deadline), st = liveStatus(o);
+    return {
+      "Organisation": o.org, "Programme": o.title, "Type": TYPES[o.type] || o.type, "Sector": o.sector,
+      "Year groups": (o.years || []).map(y => "Y" + y).join(", "), "Location": o.location,
+      "Status": STATUS_LABEL[st], "Opens": parse(o.opens) || "", "Deadline": parse(o.deadline) || "",
+      "Days left": d !== null && d >= 0 ? d : "", "Timing note": o.deadline_note,
+      "Confidence": o.confidence === "confirmed" ? "Confirmed" : "Estimated: check site",
+      "Right to work": o.visa, "Notes": o.notes, "Apply / details link": o.url, "Source": o.source || "",
+      "Last checked": parse(o.checked) || "",
+      "Saved by me": state.saved.has(o.id) ? "Yes" : "", "Applied": state.applied.has(o.id) ? "Yes" : ""
+    };
+  }
+  const WIDTHS = [26, 44, 18, 24, 11, 16, 13, 12, 12, 9, 40, 18, 40, 60, 40, 40, 12, 10, 9];
+  function sheet(rows) {
+    const ws = XLSX.utils.json_to_sheet(rows, { cellDates: true, dateNF: "dd mmm yyyy" });
+    ws["!cols"] = WIDTHS.map(w => ({ wch: w }));
+    if (ws["!ref"]) {
+      ws["!autofilter"] = { ref: ws["!ref"] };
+      const r = XLSX.utils.decode_range(ws["!ref"]);
+      for (let R = 1; R <= r.e.r; R++) for (const C of [14, 15]) {
+        const c = ws[XLSX.utils.encode_cell({ r: R, c: C })];
+        if (c && /^https?:\/\//.test(c.v)) c.l = { Target: c.v };
+      }
+    }
+    return ws;
+  }
+  function buildWorkbook() {
+    const rank = { open: 0, opening_soon: 1, unknown: 2, closed: 3 };
+    const all = DATA.filter(o => o.type !== "resource").sort((a, b) =>
+      rank[liveStatus(a)] - rank[liveStatus(b)] || (a.deadline || "9999").localeCompare(b.deadline || "9999") || a.org.localeCompare(b.org));
+    const wb = XLSX.utils.book_new();
+    XLSX.utils.book_append_sheet(wb, sheet(all.map(toRow)), "All listings");
+    [1, 2, 3].forEach(y => XLSX.utils.book_append_sheet(wb, sheet(all.filter(o => o.years.includes(y)).map(toRow)), `Year ${y}`));
+    const mine = all.filter(o => state.saved.has(o.id) || state.applied.has(o.id));
+    if (mine.length) XLSX.utils.book_append_sheet(wb, sheet(mine.map(toRow)), "My shortlist");
+    const links = XLSX.utils.json_to_sheet(DATA.filter(o => o.type === "resource").map(o => ({ "Name": o.org, "What it is": o.title, "Notes": o.notes, "Link": o.url })));
+    links["!cols"] = [{ wch: 30 }, { wch: 44 }, { wch: 60 }, { wch: 50 }];
+    XLSX.utils.book_append_sheet(wb, links, "Useful links");
+    const about = XLSX.utils.aoa_to_sheet([
+      ["Economics Careers Radar"], ["Listings last checked", META.checked || ""], ["Exported", new Date().toLocaleDateString("en-GB")], [],
+      ["Confirmed: shown on the employer's own page for this recruitment cycle."],
+      ["Estimated: based on last year's timings or a job board. Check the employer's site."],
+      ["Rolling deadlines can close early. Always confirm on the employer's site before relying on a date."]
+    ]);
+    about["!cols"] = [{ wch: 90 }, { wch: 16 }];
+    XLSX.utils.book_append_sheet(wb, about, "About");
+    return XLSX.write(wb, { bookType: "xlsx", type: "array", compression: true });
+  }
+  // Inside Claude the frame must use the downloads capability; on an ordinary web host a normal link download works.
+  let downloads = null;
+  const inClaude = typeof window.claude?.use === "function";
+  async function setupDownload() {
+    if (typeof XLSX === "undefined") return;
+    if (!inClaude) { $("#dlx").hidden = false; return; }
+    try { downloads = await window.claude.use("downloads"); } catch { downloads = null; }
+    if (downloads) $("#dlx").hidden = false;
+  }
+  function saveFile(name, blob) {
+    if (downloads) return downloads.save({ filename: name, data: blob });
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob); a.download = name;
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(a.href), 4000);
+    return Promise.resolve();
+  }
+  $("#dlx").addEventListener("click", async () => {
+    const msg = $("#dlxMsg"); msg.hidden = true;
+    if (!DATA.length) return;
+    const btn = $("#dlx"); btn.disabled = true; btn.textContent = "Preparing…";
+    try {
+      const buf = buildWorkbook();
+      await saveFile(`Economics-Careers-Radar-${META.checked || "listings"}.xlsx`, new Blob([buf], { type: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" }));
+      msg.textContent = "Download started."; msg.hidden = false;
+    } catch (e) {
+      if (e?.code === "declined") { /* viewer said no */ }
+      else if (e?.code === "rate_limited") { msg.textContent = "A download prompt is already open. Finish that one first."; msg.hidden = false; }
+      else { msg.textContent = "Excel download isn't available in this view."; msg.hidden = false; }
+    } finally { btn.disabled = false; btn.textContent = "Download Excel"; }
+  });
+
+  function renderCal() {
+    const m = (today.getMonth() + 4) % 12; // Sep = 0
+    const head = `<tr><th></th>${MONTHS.map((x, i) => `<th>${x}${i === m ? " ●" : ""}</th>`).join("")}</tr>`;
+    const body = CAL.map(r => `<tr><td class="row">${r.row}</td>${[...r.cells].map((c, i) => {
+      const k = c === "a" ? "apply" : c === "p" ? "peak" : c === "d" ? "do" : "";
+      return `<td class="m">${k ? `<div class="bar ${k} ${i === m ? "now" : ""}"></div>` : ""}</td>`;
+    }).join("")}</tr>`).join("");
+    $("#cal").innerHTML = `<caption class="label" style="text-align:left;padding-bottom:8px">Typical UK timings. Individual employers vary.</caption>${head}${body}`;
+  }
+
+  function renderResources() {
+    const rows = DATA.filter(o => o.type === "resource").sort((a, b) => a.org.localeCompare(b.org));
+    $("#resources").innerHTML = rows.map(o => {
+      const url = safeUrl(o.url);
+      return `<a ${url ? `href="${esc(url)}" target="_blank" rel="noopener"` : ""}><span class="o">${esc(o.org)}</span><span>${esc(o.title)}</span><span class="n">${esc(o.notes)}</span></a>`;
+    }).join("") || `<div class="empty-note">Resources will appear here.</div>`;
+  }
+
+  function renderAll() { renderGuide(); renderStrip(); renderChips(); renderList(); }
+
+  document.addEventListener("click", (e) => {
+    const yb = e.target.closest(".years button");
+    if (yb) { state.year = yb.dataset.year; state.types.clear(); store.set("radar.year", state.year); renderAll(); return; }
+    const chip = e.target.closest(".chip");
+    if (chip) { const t = chip.dataset.type; state.types.has(t) ? state.types.delete(t) : state.types.add(t); renderChips(); renderList(); return; }
+    const sv = e.target.closest("[data-save]");
+    if (sv) { const id = sv.dataset.save; state.saved.has(id) ? state.saved.delete(id) : state.saved.add(id); store.set("radar.saved", [...state.saved]); renderList(); return; }
+    const ap = e.target.closest("[data-applied]");
+    if (ap) { const id = ap.dataset.applied; state.applied.has(id) ? state.applied.delete(id) : state.applied.add(id); store.set("radar.applied", [...state.applied]); renderList(); }
+  });
+  $("#q").addEventListener("input", (e) => { state.q = e.target.value; resetList(); });
+  $("#sector").addEventListener("change", (e) => { state.sector = e.target.value; resetList(); });
+  $("#sort").addEventListener("change", (e) => { state.sort = e.target.value; resetList(); });
+  $("#openOnly").addEventListener("change", (e) => { state.openOnly = e.target.checked; resetList(); });
+  $("#savedOnly").addEventListener("change", (e) => { state.savedOnly = e.target.checked; resetList(); });
+  $("#showMore").addEventListener("click", () => { state.limit += PAGE; renderList(); });
+  document.querySelectorAll(".tab").forEach(t => t.addEventListener("click", () => showTab(t.dataset.tab)));
+  const startTab = (location.hash || "").slice(1) || store.get("radar.tab", "listings");
+  showTab(document.getElementById("panel-" + startTab) ? startTab : "listings");
+  setupDownload();
+
+  renderCal();
+  if (!GUIDE[state.year]) state.year = "all";
+  fetch("opportunities.json", { cache: "no-store" })
+    .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(j => {
+      META = j.meta || {}; DATA = (j.items || []).filter(o => o && o.id && o.org);
+      $("#checkedAt").textContent = META.checked ? fmt(META.checked) : "–";
+      $("#totalCount").textContent = DATA.filter(o => o.type !== "resource").length;
+      const sectors = [...new Set(DATA.filter(o => o.type !== "resource").map(o => o.sector))].sort();
+      $("#sector").insertAdjacentHTML("beforeend", sectors.map(s => `<option value="${esc(s)}">${esc(s)}</option>`).join(""));
+      renderAll(); renderResources();
+    })
+    .catch(() => {
+      $("#checkedAt").textContent = "unavailable";
+      $("#list").innerHTML = `<div class="empty-note">The listings didn't load. Refresh the page to try again.</div>`;
+      renderGuide();
+    });
+})();
+</script>
