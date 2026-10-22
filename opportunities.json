@@ -1,7 +1,7 @@
 {
  "meta": {
   "checked": "2026-10-22",
-  "count": 252
+  "count": 286
  },
  "items": [
   {
@@ -938,7 +938,8 @@
    "years": [
     1,
     2,
-    3
+    3,
+    4
    ],
    "sector": "Careers resources",
    "location": "London / Online",
@@ -950,7 +951,7 @@
    "source": "https://spe.org.uk/membership/",
    "checked": "2026-10-15",
    "confidence": "estimated",
-   "visa": "",
+   "visa": "N/A (event).",
    "notes": "Reduced-rate membership for UK undergraduates/Master's students studying economics: monthly seminars, masterclasses and access to the annual conference - good for networking with professional economists."
   },
   {
@@ -1065,7 +1066,8 @@
    "title": "2027 New Analyst Programme (graduate), London",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Investment banking",
    "location": "London",
@@ -1256,7 +1258,8 @@
    "title": "Investment Banking Graduate Analyst Programme 2027 (Expert programme), London",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Investment banking",
    "location": "London",
@@ -1319,7 +1322,8 @@
    "title": "Relationship Management – Commercial Bank – Graduate 2027 (Manchester / Glasgow)",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Investment banking",
    "location": "Manchester / Glasgow",
@@ -1466,7 +1470,8 @@
    "title": "Graduate Programme – Investment Bank: Capital Markets / IBCM (UK Coverage) 2027, London",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Investment banking",
    "location": "London",
@@ -1613,7 +1618,8 @@
    "title": "2027 London Financial Advisory Full-Time Analyst",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Investment banking",
    "location": "London",
@@ -1657,7 +1663,8 @@
    "years": [
     1,
     2,
-    3
+    3,
+    4
    ],
    "sector": "Investment banking",
    "location": "London",
@@ -1699,7 +1706,8 @@
    "title": "Evergreen – 2027 Global Advisory Graduate Programme, London",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Investment banking",
    "location": "London",
@@ -1762,7 +1770,8 @@
    "title": "2027 London Full-Time Analyst (RESA / Restructuring)",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Investment banking",
    "location": "London",
@@ -1868,7 +1877,8 @@
    "title": "Graduate Programmes 2027 (incl. Corporate & Institutional Banking)",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Investment banking",
    "location": "London",
@@ -1994,7 +2004,8 @@
    "title": "Associate Consultant 2027-28 - Strategy (London Office)",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Strategy consulting",
    "location": "London",
@@ -2015,7 +2026,8 @@
    "title": "Associate Consultant 2027-28 - Analytics (London Office)",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Strategy consulting",
    "location": "London",
@@ -2078,7 +2090,8 @@
    "title": "Associate (full-time) - London office",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Strategy consulting",
    "location": "London",
@@ -2120,7 +2133,8 @@
    "title": "Associate Consultant (full-time) - London",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Strategy consulting",
    "location": "London",
@@ -2227,7 +2241,8 @@
    "title": "Entry-level Consultant - London",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Strategy consulting",
    "location": "London",
@@ -2248,7 +2263,8 @@
    "title": "Associate (graduate) - London",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Strategy consulting",
    "location": "London",
@@ -2332,7 +2348,8 @@
    "title": "Graduate Programme 2027 - Advisory (incl. Strategy, Risk & Transactions)",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Big 4 & professional services",
    "location": "London",
@@ -2353,7 +2370,8 @@
    "title": "Graduate Programme 2027 - Consulting",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Big 4 & professional services",
    "location": "London",
@@ -2374,7 +2392,8 @@
    "title": "Graduate - Strategy (Economics Consulting), September 2027",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Big 4 & professional services",
    "location": "London",
@@ -2437,7 +2456,8 @@
    "title": "Graduate - Advisory and Consulting, September 2027",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Big 4 & professional services",
    "location": "London",
@@ -2458,7 +2478,8 @@
    "title": "Economic Advisory Graduate Programme - September 2027 intake",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Big 4 & professional services",
    "location": "London",
@@ -2479,7 +2500,8 @@
    "title": "Graduate programmes 2027 (Consulting, EY-Parthenon, Assurance, Tax)",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Big 4 & professional services",
    "location": "London",
@@ -2522,7 +2544,8 @@
    "title": "Graduate Programmes 2027 - Consulting",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Big 4 & professional services",
    "location": "London",
@@ -2603,49 +2626,6 @@
    "notes": "Further KPMG insight routes listed on the undergraduate menu; confirm year-of-study eligibility on each page."
   },
   {
-   "id": "frontier-economics-graduate-analyst-2027",
-   "org": "Frontier Economics",
-   "title": "Graduate Analyst (London)",
-   "type": "graduate",
-   "years": [
-    3
-   ],
-   "sector": "Economic consulting",
-   "location": "London",
-   "opens": null,
-   "deadline": null,
-   "deadline_note": "Frontier states graduate applications are 'opening shortly', dates being finalised; rolling review, interviews year-round.",
-   "status": "opening_soon",
-   "url": "https://www.frontier-economics.com/uk/en/careers/analysts-apprentice-analysts/",
-   "source": "https://www.frontier-economics.com/uk/en/careers/analysts-apprentice-analysts/",
-   "checked": "2026-10-19",
-   "confidence": "confirmed",
-   "visa": "London offers sponsorship to EU and non-EU nationals subject to UK rules.",
-   "notes": "MSc preferred. Some final-year undergraduates accepted for London only, combined with a part-time Masters part-funded by Frontier; many undergrads first do a long internship."
-  },
-  {
-   "id": "frontier-economics-internship",
-   "org": "Frontier Economics",
-   "title": "Internship (8-12 weeks or 5-6 months), London",
-   "type": "internship",
-   "years": [
-    2,
-    3
-   ],
-   "sector": "Economic consulting",
-   "location": "London",
-   "opens": null,
-   "deadline": null,
-   "deadline_note": "No deadline on the interns page; vacancies appear on the Workday board.",
-   "status": "unknown",
-   "url": "https://www.frontier-economics.com/uk/en/careers/interns/",
-   "source": "https://www.frontier-economics.com/uk/en/careers/interns/",
-   "checked": "2026-10-22",
-   "confidence": "estimated",
-   "visa": "",
-   "notes": "For second- or final-year Economics undergraduates or Economics postgraduates with at least a 2:1. One interview with a case study."
-  },
-  {
    "id": "frontier-economics-summer-work-experience",
    "org": "Frontier Economics",
    "title": "Summer work experience (first-year undergraduates), London",
@@ -2695,7 +2675,8 @@
    "title": "Graduate Analyst (Competition, Regulation, Finance & Valuation, Analytics)",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Economic consulting",
    "location": "London",
@@ -2733,76 +2714,13 @@
    "notes": "Internships across Competition, Regulation, Finance & Valuation and Analytics/Data Science; availability varies by year. Register via Oxera's Connect page or recruitment@oxera.com."
   },
   {
-   "id": "compass-lexecon-analyst-london",
-   "org": "Compass Lexecon",
-   "title": "Analyst / Research Analyst - London",
-   "type": "graduate",
-   "years": [
-    3
-   ],
-   "sector": "Economic consulting",
-   "location": "London",
-   "opens": null,
-   "deadline": null,
-   "deadline_note": "No London dates on official pages; openings posted on the Workday portal (could not be read automatically).",
-   "status": "unknown",
-   "url": "https://fticonsulting.wd108.myworkdayjobs.com/CompassLexeconCareers/",
-   "source": "https://www.compasslexecon.com/careers/students-graduates",
-   "checked": "2026-10-15",
-   "confidence": "estimated",
-   "visa": "",
-   "notes": "Official page says bachelor's or master's in a quantitative field; past London listings say analysts typically join after a Master's, so undergrads face MSc competition."
-  },
-  {
-   "id": "compass-lexecon-intern-europe",
-   "org": "Compass Lexecon",
-   "title": "Intern Programme (Europe, incl. London)",
-   "type": "internship",
-   "years": [
-    3
-   ],
-   "sector": "Economic consulting",
-   "location": "London",
-   "opens": null,
-   "deadline": null,
-   "deadline_note": "Flexible start dates; no deadlines published.",
-   "status": "unknown",
-   "url": "https://fticonsulting.wd108.myworkdayjobs.com/CompassLexeconCareers/",
-   "source": "https://www.compasslexecon.com/careers/students-graduates",
-   "checked": "2026-10-15",
-   "confidence": "estimated",
-   "visa": "",
-   "notes": "Interns join in their final year, between courses, or shortly after graduating; some past London postings targeted penultimate-year students."
-  },
-  {
-   "id": "nera-summer-intern-2027-london",
-   "org": "NERA Economic Consulting",
-   "title": "Summer Intern 2027 - London",
-   "type": "internship",
-   "years": [
-    2,
-    3
-   ],
-   "sector": "Economic consulting",
-   "location": "London",
-   "opens": null,
-   "deadline": null,
-   "deadline_note": "A 'NERA Summer Intern 2027 - London' posting appears on third-party boards; not verified on the Marsh careers site. NERA reviews applications as they come in.",
-   "status": "unknown",
-   "url": "https://careers.marshmclennan.com/global/en/nera-search",
-   "source": "https://www.nera.com/open-roles.html",
-   "checked": "2026-10-15",
-   "confidence": "estimated",
-   "visa": "",
-   "notes": "NERA says summer internships are for final-year undergraduates and current master's/PhD students; reported London 2027 posting is with the Energy & Natural Resources practice."
-  },
-  {
    "id": "nera-analyst-london",
    "org": "NERA Economic Consulting",
    "title": "Associate Analyst / Analyst - London",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Economic consulting",
    "location": "London",
@@ -2818,55 +2736,13 @@
    "notes": "Apply with CV, cover letter and transcripts (sometimes a writing sample) via the Marsh job site."
   },
   {
-   "id": "cornerstone-analyst-uk",
-   "org": "Cornerstone Research",
-   "title": "Analyst - London",
-   "type": "graduate",
-   "years": [
-    3
-   ],
-   "sector": "Economic consulting",
-   "location": "London",
-   "opens": null,
-   "deadline": null,
-   "deadline_note": "No dates published; current openings on the UK iCIMS portal.",
-   "status": "unknown",
-   "url": "https://uguk-chire.icims.com/jobs/search?ss=1",
-   "source": "https://www.cornerstone.com/careers/",
-   "checked": "2026-10-15",
-   "confidence": "estimated",
-   "visa": "",
-   "notes": "Analyst route open to undergraduates as well as graduate students; US-based students are not considered for UK openings."
-  },
-  {
-   "id": "analysis-group-analyst-london",
-   "org": "Analysis Group",
-   "title": "Analyst / Summer Analyst Intern - London",
-   "type": "graduate",
-   "years": [
-    2,
-    3
-   ],
-   "sector": "Economic consulting",
-   "location": "London",
-   "opens": null,
-   "deadline": null,
-   "deadline_note": "No London dates published; openings on the Analyst iCIMS board.",
-   "status": "unknown",
-   "url": "https://analystcareers-analysisgroup.icims.com/",
-   "source": "https://europe.analysisgroup.com/en/careers/",
-   "checked": "2026-10-15",
-   "confidence": "estimated",
-   "visa": "",
-   "notes": "Analyst entry level is for undergraduate and graduate students seeking full-time and summer internship roles; London intern availability not confirmed."
-  },
-  {
    "id": "cra-london-early-careers",
    "org": "CRA International (Charles River Associates)",
    "title": "Consulting Analyst / Intern - London",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Economic consulting",
    "location": "London",
@@ -2887,7 +2763,8 @@
    "title": "Business Analyst Accelerated Consulting Programme - London",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Economic consulting",
    "location": "London",
@@ -2908,7 +2785,8 @@
    "title": "Assistant Economist - Graduate Training Scheme (September 2027)",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Economic consulting",
    "location": "London",
@@ -2950,7 +2828,8 @@
    "title": "Graduate Programme 2027 (London or Belfast)",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Economic consulting",
    "location": "London",
@@ -2992,7 +2871,8 @@
    "title": "Research Officer / Analyst",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Economic consulting",
    "location": "London",
@@ -3004,7 +2884,7 @@
    "source": "https://europe-economics.com/analyst",
    "checked": "2026-10-15",
    "confidence": "estimated",
-   "visa": "",
+   "visa": "Not stated.",
    "notes": "Research Officer role takes first-degree economics graduates who study part-time while working; Analyst role requires a postgraduate degree. Paid internships currently unavailable."
   },
   {
@@ -3013,7 +2893,8 @@
    "title": "Economist roles (speculative applications)",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Economic consulting",
    "location": "London",
@@ -3025,7 +2906,7 @@
    "source": "https://www.economic-insight.com/careers/",
    "checked": "2026-10-15",
    "confidence": "estimated",
-   "visa": "",
+   "visa": "Not stated.",
    "notes": "Small London competition/regulatory economics consultancy; interview-to-offer about one month."
   },
   {
@@ -3034,7 +2915,8 @@
    "title": "Graduate / intern enquiries",
    "type": "resource",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Economic consulting",
    "location": "Cambridge",
@@ -3046,29 +2928,8 @@
    "source": "https://www.camecon.com/careers/",
    "checked": "2026-10-15",
    "confidence": "estimated",
-   "visa": "",
+   "visa": "Not stated.",
    "notes": "Cambridge-based; monitor careers page/LinkedIn or email careers@camecon.com."
-  },
-  {
-   "id": "brattle-research-analyst-london",
-   "org": "The Brattle Group",
-   "title": "Research Analyst - London",
-   "type": "graduate",
-   "years": [
-    3
-   ],
-   "sector": "Economic consulting",
-   "location": "London",
-   "opens": null,
-   "deadline": null,
-   "deadline_note": "No London dates on careers overview; see current openings page.",
-   "status": "unknown",
-   "url": "https://www.brattle.com/careers/current-openings/",
-   "source": "https://www.brattle.com/careers/",
-   "checked": "2026-10-15",
-   "confidence": "estimated",
-   "visa": "",
-   "notes": "Brattle has European offices; London research analyst availability not confirmed."
   },
   {
    "id": "brg-early-careers-uk",
@@ -3076,7 +2937,8 @@
    "title": "Early Careers (Associate / Intern) - UK",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Economic consulting",
    "location": "London",
@@ -3118,7 +2980,8 @@
    "title": "Investment and Impact Graduate Analyst Programme 2027",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Development & NGOs",
    "location": "London",
@@ -3139,7 +3002,8 @@
    "title": "Unilever Future Leaders Programme (UFLP) - Finance UK (Sept 2027 start)",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Corporate & industry",
    "location": "London",
@@ -3204,7 +3068,8 @@
    "title": "Shell Graduate Programme 2027 (Finance, Commercial, Trading & Supply)",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Corporate & industry",
    "location": "London",
@@ -3246,7 +3111,8 @@
    "title": "Finance Graduate Scheme (start 6 Sept 2027)",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Corporate & industry",
    "location": "Welwyn Garden City, Hertfordshire (hybrid)",
@@ -3288,7 +3154,8 @@
    "title": "Finance Graduate Scheme 2027 (register interest)",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Corporate & industry",
    "location": "Milton Keynes/Manchester yr 1; regional incl. London yr 2",
@@ -3330,7 +3197,8 @@
    "title": "Finance Graduate Scheme",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Corporate & industry",
    "location": "London (hybrid)",
@@ -3351,7 +3219,8 @@
    "title": "Strategy and Regulation Graduate (UK)",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Corporate & industry",
    "location": "Warwick",
@@ -3393,7 +3262,8 @@
    "title": "Business & Enterprise Graduate Programme - UK",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Corporate & industry",
    "location": "Derby / Bristol / East Grinstead",
@@ -3414,7 +3284,8 @@
    "title": "Graduate Commodity Trading Analyst",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Corporate & industry",
    "location": "Windsor / London area",
@@ -3500,7 +3371,8 @@
    "title": "Generation Ipsos Graduate Programme - Graduate Research Executive",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Research & data",
    "location": "London",
@@ -3521,7 +3393,8 @@
    "title": "Graduate programmes (research, client services, consulting; Worldpanel)",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Research & data",
    "location": "London",
@@ -3563,7 +3436,8 @@
    "title": "Graduate Strategy Analyst (Early Careers Development Programme)",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Research & data",
    "location": "London",
@@ -3584,7 +3458,8 @@
    "title": "Charityworks non-profit graduate scheme (programme permanently closed)",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Development & NGOs",
    "location": "London / UK",
@@ -3605,7 +3480,8 @@
    "title": "Training Programme (two-year salaried teacher training, 2027 start)",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Development & NGOs",
    "location": "London / England-wide",
@@ -3619,27 +3495,6 @@
    "confidence": "estimated",
    "visa": "Right to work in the UK for the full programme.",
    "notes": "teachfirst.org.uk/training-programme/apply now redirects to this Teach First-run site. Needs 2:1 (2:2 considered for secondary) plus GCSE English and maths at 4/C. A popular social-impact route; economics and maths teachers are in demand."
-  },
-  {
-   "id": "odi-fellowship-scheme",
-   "org": "ODI Global",
-   "title": "ODI Fellowship Scheme (postgraduate - future option)",
-   "type": "resource",
-   "years": [
-    3
-   ],
-   "sector": "Development & NGOs",
-   "location": "Overseas government placements",
-   "opens": null,
-   "deadline": null,
-   "deadline_note": "2026-28 cohort closed 31 March 2026; next round not yet announced.",
-   "status": "closed",
-   "url": "https://odi.org/en/odi-fellowship-scheme/",
-   "source": "https://odi.org/en/odi-fellowship-scheme/",
-   "checked": "2026-10-15",
-   "confidence": "estimated",
-   "visa": "Open to all nationalities.",
-   "notes": "Two-year placements for postgraduate economists and statisticians in developing-country governments. Not open to undergraduates, but a key aim after a master's for SOAS development economists."
   },
   {
    "id": "opm-careers-talent-network",
@@ -3818,7 +3673,8 @@
    "title": "2027 Full-Time Analyst Programme - EMEA (London)",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Asset management",
    "location": "London",
@@ -3839,7 +3695,8 @@
    "title": "2027 Full-Time Analyst - Financial Markets Advisory / Technology Sales & Relationship Mgmt (FinTech Platform), London",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Asset management",
    "location": "London",
@@ -4074,7 +3931,8 @@
    "title": "Graduate Programme (September 2027 start)",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Asset management",
    "location": "London",
@@ -4116,7 +3974,8 @@
    "title": "Graduate Schemes (September 2027 intake)",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Asset management",
    "location": "London",
@@ -4179,7 +4038,8 @@
    "title": "Graduate Schemes (2027 start)",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Insurance",
    "location": "London",
@@ -4242,7 +4102,8 @@
    "title": "Investment Research Graduate Programme (2027)",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Asset management",
    "location": "Edinburgh",
@@ -4284,7 +4145,8 @@
    "title": "Business Graduate Programme (September 2027)",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Ratings & data",
    "location": "London",
@@ -4326,7 +4188,8 @@
    "title": "Associate Analyst Graduate Program, Fitch Ratings (London)",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Ratings & data",
    "location": "London",
@@ -4368,7 +4231,8 @@
    "title": "Graduate Programme (September 2027)",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Asset management",
    "location": "London",
@@ -4410,7 +4274,8 @@
    "title": "Graduate Pathways (Corporate Functions, Wealth, Data & Analytics, Actuarial)",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Insurance",
    "location": "London",
@@ -4431,7 +4296,8 @@
    "title": "Business / Market Insurance Graduate Schemes",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Insurance",
    "location": "London",
@@ -4452,7 +4318,8 @@
    "title": "Graduate Credit Analyst (September 2027)",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Tech & fintech",
    "location": "London",
@@ -4515,7 +4382,8 @@
    "title": "Graduate Programme 2027: Strategy & Operations Manager",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Tech & fintech",
    "location": "London",
@@ -4636,6 +4504,1041 @@
    "notes": "Internship 14 June-20 August 2027 in a project and infrastructure finance rating group, for students graduating Dec 2027-June 2028. Economics and other quantitative subjects are listed."
   },
   {
+   "id": "pgt-imf-fund-internship-program-2027",
+   "org": "International Monetary Fund (IMF)",
+   "title": "Fund Internship Program (FIP) 2027 - Economists",
+   "type": "internship",
+   "years": [
+    4
+   ],
+   "sector": "International organisations",
+   "location": "Washington, DC, USA",
+   "opens": null,
+   "deadline": null,
+   "deadline_note": "Job aggregators report the 2027 economists track closing on 5 December 2026 (internship runs about 7 June to 27 August 2027). We could not load the official IMF page to confirm, so check imf.org before relying on this date.",
+   "status": "unknown",
+   "url": "https://www.imf.org/en/about/recruitment/working-at-the-imf/fund-internship-program",
+   "source": "https://www.imf.org/en/about/recruitment/working-at-the-imf/fund-internship-program",
+   "checked": "2026-10-22",
+   "confidence": "estimated",
+   "visa": "Non-US interns need a G-4 visa, which the IMF arranges. Age limits apply: under 32 for PhD students; a past flyer set under 28 for Masters students. Applicants must be enrolled students and return to study afterwards.",
+   "notes": "This is a paid 10-12 week summer internship, but the economists track is now aimed mainly at PhD students close to finishing. IMF careers pages still mention Masters students in monetary/international economics, public finance or financial markets, so check the 2027 advert for Masters eligibility."
+  },
+  {
+   "id": "pgt-imf-economist-program",
+   "org": "International Monetary Fund (IMF)",
+   "title": "Economist Program (EP) - PhD required, for information",
+   "type": "graduate",
+   "years": [
+    4
+   ],
+   "sector": "International organisations",
+   "location": "Washington, DC, USA",
+   "opens": null,
+   "deadline": null,
+   "deadline_note": "Requires a PhD (or one about to be completed), so this is not a direct route after an MSc. Listed for long-term planning.",
+   "status": "unknown",
+   "url": "https://www.imf.org/en/about/recruitment",
+   "source": "https://www.imf.org/en/about/recruitment",
+   "checked": "2026-10-22",
+   "confidence": "estimated",
+   "visa": "Open to nationals of IMF member countries.",
+   "notes": "The IMF's main entry route for economists, but it needs a PhD in economics. MSc students who want this career usually move on to a PhD first; see the UBEL DTP entry."
+  },
+  {
+   "id": "pgt-world-bank-pioneers-postgraduate",
+   "org": "World Bank Group",
+   "title": "WBG Pioneers Internship - Postgraduate Track (Masters/PhD)",
+   "type": "internship",
+   "years": [
+    3,
+    4
+   ],
+   "sector": "International organisations",
+   "location": "Washington, DC and country offices",
+   "opens": null,
+   "deadline": null,
+   "deadline_note": "The 2026 cycle took applications from 19 January to 17 February 2026 for internships between April and September. A 2027 cycle has not been announced; based on that pattern, expect about mid-January to mid-February 2027.",
+   "status": "unknown",
+   "url": "https://www.worldbank.org/ext/en/careers/talent-programs/wbg-pioneers",
+   "source": "https://www.worldbank.org/ext/en/careers/talent-programs/wbg-pioneers",
+   "checked": "2026-10-22",
+   "confidence": "estimated",
+   "visa": "For Washington HQ placements the Bank arranges a G-4 visa. You must be enrolled in a Masters or PhD while applying.",
+   "notes": "This is the World Bank's main internship programme. The postgraduate track is for current Masters or PhD students with 0-6 years of experience. Some units, such as DIME, also run unpaid fall/winter cycles (July-August applications)."
+  },
+  {
+   "id": "pgt-world-bank-treasury-summer-2027",
+   "org": "World Bank Treasury",
+   "title": "Treasury Summer Internship 2027",
+   "type": "internship",
+   "years": [
+    3,
+    4
+   ],
+   "sector": "International organisations",
+   "location": "Washington, DC, USA",
+   "opens": null,
+   "deadline": "2026-09-30",
+   "deadline_note": "The 2027 window closed on 30 September 2026. The internship runs from 1 June to 9 August 2027.",
+   "status": "closed",
+   "url": "https://treasury.worldbank.org/en/about/unit/treasury/about/student-and-graduate-careers",
+   "source": "https://treasury.worldbank.org/en/about/unit/treasury/about/student-and-graduate-careers",
+   "checked": "2026-10-22",
+   "confidence": "estimated",
+   "visa": "Non-US citizens are eligible. The Bank sponsors the visa needed to work in the US.",
+   "notes": "A paid 10-week finance and markets internship. It is too late for this year; note an early-autumn deadline for the 2028 cycle."
+  },
+  {
+   "id": "pgt-world-bank-young-professionals-program",
+   "org": "World Bank Group",
+   "title": "Young Professionals Program (YPP) - Masters plus experience required",
+   "type": "graduate",
+   "years": [
+    4
+   ],
+   "sector": "International organisations",
+   "location": "Washington, DC and global",
+   "opens": "2026-09-01",
+   "deadline": "2026-09-30",
+   "deadline_note": "The cycle for the September 2027 cohort ran 1-30 September 2026. Expect a similar September window in 2027.",
+   "status": "closed",
+   "url": "https://www.worldbank.org/ext/en/careers/talent-programs/young-professionals-program",
+   "source": "https://www.worldbank.org/ext/en/careers/talent-programs/young-professionals-program",
+   "checked": "2026-10-22",
+   "confidence": "confirmed",
+   "visa": "You must be a national of a WBG member country. There is no age limit.",
+   "notes": "CAVEAT: you need a Masters or higher plus 2-6 years of full-time professional experience, so this is not for new MSc graduates. It is a 2-year rotational programme leading to a staff role."
+  },
+  {
+   "id": "pgt-un-young-professionals-programme-2026",
+   "org": "United Nations Secretariat",
+   "title": "UN Young Professionals Programme (YPP) 2026 - Development and Sustainability",
+   "type": "graduate",
+   "years": [
+    3,
+    4
+   ],
+   "sector": "International organisations",
+   "location": "UN duty stations worldwide",
+   "opens": null,
+   "deadline": null,
+   "deadline_note": "UN Careers indicates the 2026 YPP (exam area: Development and Sustainability) is open. Secondary sources give conflicting closing dates (1 November or 30 November 2026), so check Inspira at once.",
+   "status": "open",
+   "url": "https://careers.un.org/young-professionals-programme",
+   "source": "https://careers.un.org/young-professionals-programme",
+   "checked": "2026-10-22",
+   "confidence": "estimated",
+   "visa": "Open ONLY to nationals of the 2026 participating countries; the list changes each year (2026 examples include Angola, China, Indonesia, Japan, Kuwait, Mongolia, Qatar, Saudi Arabia, USA). You must be 32 or younger (born on or after 1 January 1994).",
+   "notes": "This entrance exam leads to a permanent P1/P2 UN career. A relevant first degree is the minimum, but development economics MSc students are a strong fit for the 2026 exam area. Check your nationality against the list on UN Careers."
+  },
+  {
+   "id": "pgt-un-secretariat-internship-programme",
+   "org": "United Nations Secretariat",
+   "title": "United Nations Internship Programme",
+   "type": "internship",
+   "years": [
+    3,
+    4
+   ],
+   "sector": "International organisations",
+   "location": "New York, Geneva, Nairobi, Vienna, Bangkok, Addis Ababa, Santiago and others",
+   "opens": null,
+   "deadline": null,
+   "deadline_note": "Rolling. Individual internship announcements on UN Careers have their own deadlines.",
+   "status": "unknown",
+   "url": "https://careers.un.org/home?language=en",
+   "source": "https://careers.un.org/home?language=en",
+   "checked": "2026-10-22",
+   "confidence": "estimated",
+   "visa": "Eligible if you are enrolled in a graduate programme, in the final year of a first degree, or within one year of graduating. You arrange your own visa.",
+   "notes": "Internships are usually 2-6 months and full-time. Many posts (e.g. economic commissions such as ECA, ESCAP, ECLAC) suit development economists. Pay varies, so check each posting for any stipend."
+  },
+  {
+   "id": "pgt-unctad-internship",
+   "org": "UNCTAD",
+   "title": "UNCTAD Internship Programme",
+   "type": "internship",
+   "years": [
+    3,
+    4
+   ],
+   "sector": "International organisations",
+   "location": "Geneva, Switzerland",
+   "opens": null,
+   "deadline": null,
+   "deadline_note": "Apply to specific announcements on careers.un.org as they appear; there is no fixed annual deadline.",
+   "status": "unknown",
+   "url": "https://unctad.org/page/internship-programme",
+   "source": "https://unctad.org/page/internship-programme",
+   "checked": "2026-10-22",
+   "confidence": "estimated",
+   "visa": "Eligible if you are enrolled in a graduate programme, in the final year of a first degree, or within one year of graduating. The UNCTAD page states internships are not remunerated, so you fund your own travel and Swiss living costs.",
+   "notes": "A strong fit for trade, investment, debt and development economics. Read the Internship Applicant's Manual before applying via UN Careers."
+  },
+  {
+   "id": "pgt-undp-internships",
+   "org": "UNDP",
+   "title": "UNDP Internships",
+   "type": "internship",
+   "years": [
+    3,
+    4
+   ],
+   "sector": "International organisations",
+   "location": "UNDP country offices and HQ worldwide",
+   "opens": null,
+   "deadline": null,
+   "deadline_note": "Rolling. Each posting on the UNDP jobs site has its own deadline.",
+   "status": "unknown",
+   "url": "https://www.undp.org/careers/people-programmes",
+   "source": "https://www.undp.org/careers/people-programmes",
+   "checked": "2026-10-22",
+   "confidence": "estimated",
+   "visa": "Eligible if enrolled in a Masters, in the final year of a Bachelors, or graduated within the past year. Some country-office posts prefer nationals or residents.",
+   "notes": "Internships last up to 6 months, with a monthly stipend that varies by duty station. Country-office economics and policy units are good targets for development economists."
+  },
+  {
+   "id": "pgt-ilo-internship",
+   "org": "International Labour Organization (ILO)",
+   "title": "ILO Internship Programme (roster)",
+   "type": "internship",
+   "years": [
+    4
+   ],
+   "sector": "International organisations",
+   "location": "Geneva and ILO field offices",
+   "opens": null,
+   "deadline": null,
+   "deadline_note": "The ILO opens its internship roster twice a year, normally in April and October; the October 2026 window may be live now. Start dates are the 1st or 15th of any month.",
+   "status": "unknown",
+   "url": "https://jobs.ilo.org/content/Internships/?locale=en_GB",
+   "source": "https://jobs.ilo.org/content/Internships/?locale=en_GB",
+   "checked": "2026-10-22",
+   "confidence": "estimated",
+   "visa": "You must be in the final year of a Masters (or higher degree) or have completed one in the past year. There is no age limit, and you need working English, French or Spanish.",
+   "notes": "Interns receive a subsistence stipend if no institution sponsors them. This suits labour, employment and social protection economists."
+  },
+  {
+   "id": "pgt-wto-young-professionals-programme",
+   "org": "World Trade Organization (WTO)",
+   "title": "WTO Young Professionals Programme",
+   "type": "graduate",
+   "years": [
+    4
+   ],
+   "sector": "International organisations",
+   "location": "Geneva, Switzerland",
+   "opens": null,
+   "deadline": null,
+   "deadline_note": "Recent calls opened about March and closed in April (the 2026 programme call closed 22 April 2025). The 2027 cohort runs 13 January to 17 December 2027. Watch for a spring 2027 call for the 2028 cohort.",
+   "status": "unknown",
+   "url": "https://www.wto.org/english/thewto_e/vacan_e/ypp_e.htm",
+   "source": "https://www.wto.org/english/thewto_e/vacan_e/ypp_e.htm",
+   "checked": "2026-10-22",
+   "confidence": "estimated",
+   "visa": "Open only to nationals of developing and least-developed WTO members that are under-represented in the Secretariat. You must be 32 or younger on 1 January of the programme year.",
+   "notes": "A one-year paid programme in the Secretariat. It requires an advanced degree (e.g. an MSc in economics) plus about two years of relevant experience and fluent English."
+  },
+  {
+   "id": "pgt-ebrd-internships",
+   "org": "EBRD",
+   "title": "EBRD Internships (London HQ and Resident Offices)",
+   "type": "internship",
+   "years": [
+    4
+   ],
+   "sector": "International organisations",
+   "location": "London, UK and EBRD regions",
+   "opens": null,
+   "deadline": null,
+   "deadline_note": "Posted ad hoc on jobs.ebrd.com throughout the year; there is no fixed cycle.",
+   "status": "unknown",
+   "url": "https://www.ebrd.com/home/work-with-us/ebrd-careers/ebrd-internships.html",
+   "source": "https://www.ebrd.com/home/work-with-us/ebrd-careers/ebrd-internships.html",
+   "checked": "2026-10-22",
+   "confidence": "estimated",
+   "visa": "You must be a national of an EBRD member country. The EBRD supports UK visa applications for candidates who receive an offer. Studies must be in progress or finished within the last 12 months.",
+   "notes": "Paid internships of 3-6 months (extendable to 12), often taken by postgraduate students. The Office of the Chief Economist and policy teams fit economists well; set a job alert on jobs.ebrd.com."
+  },
+  {
+   "id": "pgt-ebrd-international-professionals-programme",
+   "org": "EBRD",
+   "title": "International Professionals Programme (graduate programme)",
+   "type": "graduate",
+   "years": [
+    4
+   ],
+   "sector": "International organisations",
+   "location": "London, UK and Resident Offices",
+   "opens": null,
+   "deadline": null,
+   "deadline_note": "No 2027 dates were found. Check the EBRD Early-career opportunities page for the next intake.",
+   "status": "unknown",
+   "url": "https://jobs.ebrd.com/go/Early-career-opportunities/1111501/",
+   "source": "https://jobs.ebrd.com/go/Early-career-opportunities/1111501/",
+   "checked": "2026-10-22",
+   "confidence": "estimated",
+   "visa": "You must be a national of an EBRD member country. The EBRD supports visa applications for successful candidates.",
+   "notes": "A 24-month rotational graduate programme with an assignment to a Resident Office. Tracks include Banking, Competitiveness & Governance, Impact & Partnerships and Risk. Selection uses an application with CV, online tests, a video interview and an assessment centre."
+  },
+  {
+   "id": "pgt-adb-young-professionals-program",
+   "org": "Asian Development Bank (ADB)",
+   "title": "ADB Young Professionals Program",
+   "type": "graduate",
+   "years": [
+    4
+   ],
+   "sector": "International organisations",
+   "location": "Manila, Philippines",
+   "opens": null,
+   "deadline": "2026-09-30",
+   "deadline_note": "Applications open in early September; the 2026 vacancy closed 30 September 2026, with panel interviews from December to February. The ADB page now shows no open opportunities.",
+   "status": "closed",
+   "url": "https://www.adb.org/work-with-us/careers/adb-young-professionals-program",
+   "source": "https://www.adb.org/work-with-us/careers/adb-young-professionals-program",
+   "checked": "2026-10-22",
+   "confidence": "confirmed",
+   "visa": "You must be a citizen of an ADB member country and aged 32 or under (not flexible).",
+   "notes": "CAVEAT: needs at least 3 years of relevant experience (internships count), so this is aimed at graduates a few years out. Plan for the September 2027 window."
+  },
+  {
+   "id": "pgt-adb-internship-program",
+   "org": "Asian Development Bank (ADB)",
+   "title": "ADB Internship Program",
+   "type": "internship",
+   "years": [
+    4
+   ],
+   "sector": "International organisations",
+   "location": "Manila, Philippines and resident missions",
+   "opens": null,
+   "deadline": null,
+   "deadline_note": "Selections are made in March-April for June starts. Assignments appear under Current Opportunities, and the 2027 openings had not been seen at the time of checking.",
+   "status": "unknown",
+   "url": "https://www.adb.org/work-with-us/careers/internship-program",
+   "source": "https://www.adb.org/work-with-us/careers/internship-program",
+   "checked": "2026-10-22",
+   "confidence": "estimated",
+   "visa": "Open only to nationals of ADB member countries.",
+   "notes": "Internships last 8-12 weeks. You apply to specific assignments through the ACES system, and late submissions are not considered."
+  },
+  {
+   "id": "pgt-afdb-internship-2027-session-1",
+   "org": "African Development Bank (AfDB)",
+   "title": "2027 Internship Program - Session 1",
+   "type": "internship",
+   "years": [
+    4
+   ],
+   "sector": "International organisations",
+   "location": "Abidjan, Côte d'Ivoire and regional offices",
+   "opens": "2026-09-28",
+   "deadline": "2026-10-12",
+   "deadline_note": "Session 1 applications ran 28 September to 12 October 2026, for internships starting January 2027. Watch for a later 2027 session.",
+   "status": "closed",
+   "url": "https://www.afdb.org/en/vacancy/2027-internship-program-session-1-97099",
+   "source": "https://www.afdb.org/en/vacancy/2027-internship-program-session-1-97099",
+   "checked": "2026-10-22",
+   "confidence": "estimated",
+   "visa": "Normally restricted to nationals of AfDB member countries; confirm in the advert.",
+   "notes": "A short-window internship for postgraduate students; it does not lead directly to Bank employment. Set alerts on the AfDB careers page because windows last only about two weeks."
+  },
+  {
+   "id": "pgt-afdb-young-professionals-program",
+   "org": "African Development Bank (AfDB)",
+   "title": "AfDB Young Professionals Program (YPP)",
+   "type": "graduate",
+   "years": [
+    4
+   ],
+   "sector": "International organisations",
+   "location": "Abidjan, Côte d'Ivoire and regional offices",
+   "opens": null,
+   "deadline": null,
+   "deadline_note": "The last (2026) round closed 30 November 2025 (vacancy notice listed 31 December 2025). The next intake had not been announced at the time of checking.",
+   "status": "unknown",
+   "url": "https://www.afdb.org/en/about-us/careers/young-professionals-program-ypp",
+   "source": "https://www.afdb.org/en/about-us/careers/young-professionals-program-ypp",
+   "checked": "2026-10-22",
+   "confidence": "estimated",
+   "visa": "You must be a national of an AfDB member country, aged 32 or under at application. Dual nationals must declare one nationality.",
+   "notes": "A three-year programme that needs a Masters in a relevant field plus at least 3 years of experience. Better suited to Masters graduates with prior work experience."
+  },
+  {
+   "id": "pgt-idb-internship-program",
+   "org": "Inter-American Development Bank (IDB)",
+   "title": "IDB Internship Program (Winter/Summer cohorts)",
+   "type": "internship",
+   "years": [
+    3,
+    4
+   ],
+   "sector": "International organisations",
+   "location": "Washington, DC, USA and country offices",
+   "opens": null,
+   "deadline": null,
+   "deadline_note": "Applications open about 3-4 months before each cohort. Winter 2027 internships (16 January to 15 March 2027) appear to be closed. Summer 2027 postings are expected about February-March 2027 (estimate).",
+   "status": "unknown",
+   "url": "https://www.iadb.org/en/how-we-can-work-together/students-recent-graduates",
+   "source": "https://www.iadb.org/en/how-we-can-work-together/students-recent-graduates",
+   "checked": "2026-10-22",
+   "confidence": "estimated",
+   "visa": "Many posts require nationality of an IDB member country and active enrolment in a Masters or PhD at the start date. Country-office internships usually need citizenship or a work permit in that country.",
+   "notes": "Paid HQ internships, applied for on jobs.iadb.org with up to 3 applications per cohort. Best suited to students interested in Latin America and the Caribbean; Spanish or Portuguese helps."
+  },
+  {
+   "id": "pgt-ecb-traineeships",
+   "org": "European Central Bank (ECB)",
+   "title": "ECB Traineeships (economics, monetary policy, international policy)",
+   "type": "internship",
+   "years": [
+    3,
+    4
+   ],
+   "sector": "Central banks",
+   "location": "Frankfurt am Main, Germany",
+   "opens": null,
+   "deadline": "2026-10-20",
+   "deadline_note": "The main 2027-start economics traineeships (DG Monetary Policy; International Policy Analysis) closed 20 October 2026. Others (Statistics and Data Science, Market-based Finance) closed in September or October 2026. New postings appear throughout the year.",
+   "status": "closed",
+   "url": "https://talent.ecb.europa.eu/careers/JobDetail/Traineeship-in-the-Directorate-General-Monetary-Policy/15107",
+   "source": "https://talent.ecb.europa.eu/careers/JobDetail/Traineeship-in-the-Directorate-General-Monetary-Policy/15107",
+   "checked": "2026-10-22",
+   "confidence": "confirmed",
+   "visa": "Restricted to nationals of EU member states, so most non-EU international students are not eligible.",
+   "notes": "Paid 6-12 month traineeships for recent Masters graduates in economics. Successful candidates can stay on a reserve list for 12 months."
+  },
+  {
+   "id": "pgt-bis-graduate-programme",
+   "org": "Bank for International Settlements (BIS)",
+   "title": "BIS Graduate Programme",
+   "type": "graduate",
+   "years": [
+    3,
+    4
+   ],
+   "sector": "Central banks",
+   "location": "Basel, Switzerland",
+   "opens": null,
+   "deadline": null,
+   "deadline_note": "The BIS says Graduate Programme openings are usually advertised in spring, so expect spring 2027. The separate 2027 PhD Fellowship (PhD students only) closes 6 November 2026.",
+   "status": "unknown",
+   "url": "https://www.bis.org/careers/graduate_programme.htm",
+   "source": "https://www.bis.org/careers/graduate_programme.htm",
+   "checked": "2026-10-22",
+   "confidence": "estimated",
+   "visa": "Open to all nationalities; Swiss permits are arranged by the BIS. Eligibility wording differs between BIS pages (recent Bachelors/Masters vs PhD students), so check the advert.",
+   "notes": "A rotational programme at the central bank for central banks. Apply directly on the BIS careers site; agency applications are not accepted."
+  },
+  {
+   "id": "pgt-ges-economist-vacancies-resource",
+   "org": "Government Economic Service (GES)",
+   "title": "GES recruitment routes incl. Economic Adviser / FCDO economist vacancies",
+   "type": "resource",
+   "years": [
+    4
+   ],
+   "sector": "Government & regulators",
+   "location": "UK",
+   "opens": null,
+   "deadline": null,
+   "deadline_note": "There is no current Economic Adviser bulk round (the gov.uk page for it is withdrawn). Departments, including FCDO, advertise economist posts year-round on Civil Service Jobs.",
+   "status": "unknown",
+   "url": "https://www.gov.uk/government/organisations/civil-service-government-economic-service/about/recruitment",
+   "source": "https://www.gov.uk/government/organisations/civil-service-government-economic-service/about/recruitment",
+   "checked": "2026-10-22",
+   "confidence": "estimated",
+   "visa": "Civil Service Nationality Rules apply, and most posts need existing UK right to work.",
+   "notes": "No FCDO-specific graduate economist scheme was found. FCDO economists usually enter through the GES Fast Stream or Assistant Economist scheme, or through direct Economic Adviser (Grade 7) vacancies, which need experience. Set a Civil Service Jobs alert for 'economist'."
+  },
+  {
+   "id": "pgt-ifs-research-economist-2027",
+   "org": "Institute for Fiscal Studies (IFS)",
+   "title": "Research Economist",
+   "type": "graduate",
+   "years": [
+    3,
+    4
+   ],
+   "sector": "Think tanks & research",
+   "location": "London, UK",
+   "opens": null,
+   "deadline": "2026-11-08",
+   "deadline_note": "The Research Economist deadline is 8 November 2026 (apply via BeApplied).",
+   "status": "open",
+   "url": "https://ifs.org.uk/jobs",
+   "source": "https://ifs.org.uk/jobs",
+   "checked": "2026-10-22",
+   "confidence": "confirmed",
+   "visa": "The role is eligible for Skilled Worker sponsorship, and the IFS will support visa applications where needed.",
+   "notes": "Salary is £44,500-£67,000. You need at least a very good 2:1 in an economics-heavy degree, and a relevant Masters strengthens an application. This is one of the best UK policy-research entry routes and is open to international students now."
+  },
+  {
+   "id": "pgt-ifs-summer-intern-2027",
+   "org": "Institute for Fiscal Studies (IFS)",
+   "title": "Summer Intern 2027",
+   "type": "internship",
+   "years": [
+    2,
+    3,
+    4
+   ],
+   "sector": "Think tanks & research",
+   "location": "London, UK",
+   "opens": null,
+   "deadline": "2027-01-17",
+   "deadline_note": "The deadline is 17 January 2027.",
+   "status": "open",
+   "url": "https://ifs.org.uk/jobs",
+   "source": "https://ifs.org.uk/jobs",
+   "checked": "2026-10-22",
+   "confidence": "estimated",
+   "visa": "Check right-to-work requirements in the advert.",
+   "notes": "A paid summer research internship (£28,860 pro rata). It is a useful bridge for MSc students who are not yet ready for full-time roles."
+  },
+  {
+   "id": "pgt-odi-fellowship-scheme",
+   "org": "ODI Global",
+   "title": "ODI Fellowship Scheme (two-year economist/statistician postings)",
+   "type": "fellowship",
+   "years": [
+    3,
+    4
+   ],
+   "sector": "Development & NGOs",
+   "location": "Governments in Africa, Asia, the Caribbean, the Pacific and the Western Balkans",
+   "opens": null,
+   "deadline": null,
+   "deadline_note": "The 2026-28 round closed 31 March 2026. No 2027-29 call had been announced at the time of checking; recent rounds opened about February and closed at the end of March.",
+   "status": "unknown",
+   "url": "https://odi.org/en/fellowship-scheme/",
+   "source": "https://careers.odi.org/postings/0615c770-03f9-4de3-b340-f4825e68972b",
+   "checked": "2026-10-22",
+   "confidence": "estimated",
+   "visa": "Open to all nationalities. Work permits for the host country are arranged with the host government.",
+   "notes": "The flagship post-MSc development economics route: two years as a civil servant in a finance ministry, central bank or statistics office. You need a Masters in economics, statistics or a related field; selection is on the application form alone, and 2026 drew over 1,300 applicants."
+  },
+  {
+   "id": "pgt-odi-global-careers",
+   "org": "ODI Global",
+   "title": "ODI Global research and policy roles (careers portal)",
+   "type": "resource",
+   "years": [
+    4
+   ],
+   "sector": "Think tanks & research",
+   "location": "London, UK and remote/global",
+   "opens": null,
+   "deadline": null,
+   "deadline_note": "Rolling vacancies.",
+   "status": "unknown",
+   "url": "https://careers.odi.org/postings/0615c770-03f9-4de3-b340-f4825e68972b",
+   "source": "https://careers.odi.org/postings/0615c770-03f9-4de3-b340-f4825e68972b",
+   "checked": "2026-10-22",
+   "confidence": "estimated",
+   "visa": "Check each posting for right-to-work and sponsorship requirements.",
+   "notes": "ODI Global's careers portal lists research officer/assistant and consultancy roles in development economics, climate and finance. Set an alert."
+  },
+  {
+   "id": "pgt-jpal-research-associate-2027",
+   "org": "J-PAL (Abdul Latif Jameel Poverty Action Lab)",
+   "title": "Research Associate / Policy roles - 2026-27 recruitment drive",
+   "type": "fellowship",
+   "years": [
+    3,
+    4
+   ],
+   "sector": "Development & NGOs",
+   "location": "Global (offices in Africa, South Asia, SE Asia, Europe, LAC, N. America; field sites)",
+   "opens": "2026-11-25",
+   "deadline": "2027-01-13",
+   "deadline_note": "The full launch for all positions opens 25 November 2026, with a deadline of 13 January 2027. The early launch (General Field/Data RA) ran 8 September to 9 October 2026 and is closed.",
+   "status": "opening_soon",
+   "url": "https://www.povertyactionlab.org/page/recruitment-timeline",
+   "source": "https://www.povertyactionlab.org/page/recruitment-timeline",
+   "checked": "2026-10-22",
+   "confidence": "confirmed",
+   "visa": "Varies by office. Some Europe posts require EU work authorisation and offer no sponsorship; field posts often favour nationals.",
+   "notes": "RCT research associate roles are a classic stepping stone to a development economics PhD. Education requirements vary by posting, so read each one. The 2026 J-PAL Europe roles found were based in Paris and Spain, not London."
+  },
+  {
+   "id": "pgt-ipa-research-roles",
+   "org": "Innovations for Poverty Action (IPA)",
+   "title": "IPA research roles and Africa Graduate Trainee programme",
+   "type": "fellowship",
+   "years": [
+    4
+   ],
+   "sector": "Development & NGOs",
+   "location": "IPA country offices (e.g. Kenya, Ghana, Philippines) and remote",
+   "opens": null,
+   "deadline": null,
+   "deadline_note": "Rolling postings. Recent Graduate Trainee (Kenya) and Research Associate posts found online were old, so check the careers pages for live roles.",
+   "status": "unknown",
+   "url": "https://poverty-action.org/graduate-trainee",
+   "source": "https://poverty-action.org/graduate-trainee",
+   "checked": "2026-10-22",
+   "confidence": "estimated",
+   "visa": "Many country-office roles favour nationals or residents; check each posting.",
+   "notes": "The Graduate Trainee programme is a 6-month research placement for Masters or PhD students, designed as a pipeline into impact-evaluation careers. Other roles (Program Associate, Research Coordinator) prefer a Masters in development economics plus 2 years of experience."
+  },
+  {
+   "id": "pgt-uk-think-tank-academic-ra-resource",
+   "org": "Resolution Foundation / NIESR / LSE (CEP, STICERD)",
+   "title": "UK think-tank and university research assistant vacancies",
+   "type": "resource",
+   "years": [
+    4
+   ],
+   "sector": "Careers resources",
+   "location": "London, UK",
+   "opens": null,
+   "deadline": null,
+   "deadline_note": "Rolling. Resolution Foundation's 2026 economist round closed 28 May 2026. NIESR's last Associate Economist post (MSc required) closed August 2025. LSE CEP summer internship applications reopen March 2027.",
+   "status": "unknown",
+   "url": "https://cep.lse.ac.uk/_new/about/work/",
+   "source": "https://www.resolutionfoundation.org/about-us/opportunities/",
+   "checked": "2026-10-22",
+   "confidence": "estimated",
+   "visa": "Check each posting. University RA posts are often fixed-term and may or may not offer sponsorship.",
+   "notes": "Watch jobs.lse.ac.uk (STICERD, CEP, Centre for Macroeconomics) and resolutionfoundation.org/about-us/opportunities. Also watch niesr.ac.uk, whose Associate Economist posts ask for an MSc. CEP also hires part-time RAs year-round who have Masters-level economics."
+  },
+  {
+   "id": "pgt-ubel-dtp-esrc-studentships-2027",
+   "org": "UBEL ESRC Doctoral Training Partnership (UCL, Bloomsbury & East London - includes SOAS)",
+   "title": "ESRC funded PhD studentships - 2027 entry",
+   "type": "fellowship",
+   "years": [
+    4
+   ],
+   "sector": "Further study",
+   "location": "London, UK (SOAS and other UBEL partners)",
+   "opens": "2026-09-14",
+   "deadline": "2026-11-09",
+   "deadline_note": "Pre-registration deadline is 30 October 2026 (23:59) and the preliminary application deadline is 9 November 2026 (23:59). Full applications (if shortlisted) are due 1 February 2027, with awards confirmed w/c 19 April 2027. SOAS may set earlier internal dates.",
+   "status": "open",
+   "url": "https://ubel-dtp.ac.uk/esrc-studentships/",
+   "source": "https://ubel-dtp.ac.uk/esrc-studentships/",
+   "checked": "2026-10-22",
+   "confidence": "confirmed",
+   "visa": "Open to home and international students, but international awards are capped at 30% (in 2025 only 10 of 485 international applicants were funded). UBEL does not cover visa costs.",
+   "notes": "Fully funded PhD: the 2026/27 minimum stipend is £23,805 with London allowance, plus fees. This is the main UK route for MSc economists heading to a PhD; also see the SOAS ESRC page and talk to a potential supervisor before 30 October."
+  },
+  {
+   "id": "pgt-uk-graduate-route-visa-2027",
+   "org": "UK Home Office (GOV.UK)",
+   "title": "Graduate visa (Graduate Route) - length of stay and January 2027 change",
+   "type": "resource",
+   "years": [
+    4
+   ],
+   "sector": "Careers resources",
+   "location": "UK",
+   "opens": null,
+   "deadline": "2026-12-31",
+   "deadline_note": "Masters graduates get 2 years if they apply on or before 31 December 2026, and 18 months if they apply on or after 1 January 2027. PhD graduates still get 3 years. The application date counts, not the date your degree is awarded.",
+   "status": "open",
+   "url": "https://www.gov.uk/graduate-visa",
+   "source": "https://www.gov.uk/graduate-visa",
+   "checked": "2026-10-22",
+   "confidence": "confirmed",
+   "visa": "2026/27 one-year MSc students will normally finish after 1 January 2027, so they will receive 18 months on the Graduate Route.",
+   "notes": "Key for international students planning UK employer applications (GES, FCA, BoE): many UK public-sector schemes do not sponsor visas, so an 18-month Graduate Route window shapes timing. IFS and some think tanks offer Skilled Worker sponsorship."
+  },
+  {
+   "id": "pgt-frontier-graduate-economic-analyst-2027",
+   "org": "Frontier Economics",
+   "title": "2027 Graduate Economic Analyst - London",
+   "type": "graduate",
+   "years": [
+    3,
+    4
+   ],
+   "sector": "Economic consulting",
+   "location": "London",
+   "opens": "2026-10-21",
+   "deadline": "2026-11-17",
+   "deadline_note": "Posting states 'Deadline: Tuesday 17th November 2026'; may close earlier if filled or high volume.",
+   "status": "open",
+   "url": "https://frontiereconomics.wd3.myworkdayjobs.com/Frontier_Economics_Careers/job/London/XMLNAME-2027-Graduate-Economic-Analyst---London_JR10236",
+   "source": "https://frontiereconomics.wd3.myworkdayjobs.com/Frontier_Economics_Careers/job/London/XMLNAME-2027-Graduate-Economic-Analyst---London_JR10236",
+   "checked": "2026-10-22",
+   "confidence": "confirmed",
+   "visa": "Frontier's analyst careers page says for London full-time analyst offers it will instruct Fragomen LLP to assist with a UK points-based (Skilled Worker) application; EU and non-EU nationals considered.",
+   "notes": "Two-year analyst programme explicitly designed for Master's graduates with a strong economics focus (2:1 economics-focused first degree + economics Master's essential). Excel essential, R useful; submit one application only (other offices can be indicated)."
+  },
+  {
+   "id": "pgt-frontier-analyst-intern-long-term-2027",
+   "org": "Frontier Economics",
+   "title": "2027 Economic Analyst Intern (Long-term, 5-6 months) - London",
+   "type": "internship",
+   "years": [
+    4
+   ],
+   "sector": "Economic consulting",
+   "location": "London",
+   "opens": "2026-10-21",
+   "deadline": "2026-11-18",
+   "deadline_note": "Posting states 'Application deadline: Wednesday 18th November 2026'; may close early.",
+   "status": "open",
+   "url": "https://frontiereconomics.wd3.myworkdayjobs.com/Frontier_Economics_Careers/job/London/XMLNAME-2027-Economic-Analyst-Intern--Long-term----London_JR10239",
+   "source": "https://frontiereconomics.wd3.myworkdayjobs.com/Frontier_Economics_Careers/job/London/XMLNAME-2027-Economic-Analyst-Intern--Long-term----London_JR10239",
+   "checked": "2026-10-22",
+   "confidence": "confirmed",
+   "visa": "Not stated in posting; a 5-6 month full-time internship would normally need to fall after course completion for Student-visa holders (e.g. on the Graduate Route).",
+   "notes": "5-6 month internship for those working towards or having completed an economics-focused Master's; described as insight into a route to a permanent Analyst post. Good option for students who finish in Sept 2027 and want a foot in the door."
+  },
+  {
+   "id": "pgt-frontier-economic-intern-short-term-2027",
+   "org": "Frontier Economics",
+   "title": "2027 Economic Intern (Short-term, 8-12 weeks) - London",
+   "type": "internship",
+   "years": [
+    2,
+    3,
+    4
+   ],
+   "sector": "Economic consulting",
+   "location": "London",
+   "opens": "2026-10-21",
+   "deadline": "2026-10-28",
+   "deadline_note": "Posting states 'Application deadline: Wednesday 28th October 2026'.",
+   "status": "open",
+   "url": "https://frontiereconomics.wd3.myworkdayjobs.com/Frontier_Economics_Careers/job/London/XMLNAME-2027-Economic-Intern--Short-term----London_JR10238",
+   "source": "https://frontiereconomics.wd3.myworkdayjobs.com/Frontier_Economics_Careers/job/London/XMLNAME-2027-Economic-Intern--Short-term----London_JR10238",
+   "checked": "2026-10-22",
+   "confidence": "confirmed",
+   "visa": "Not stated in posting. Student-visa holders should check term-time hour limits against SOAS dates (PGT summer is dissertation period, not vacation).",
+   "notes": "8-12 week internship for students in second year of undergraduate study or beyond (so PGT students are eligible). Very short window - apply this week."
+  },
+  {
+   "id": "pgt-compass-lexecon-analyst-competition-london-2027",
+   "org": "Compass Lexecon",
+   "title": "Analyst | Competition Practice | London (Autumn 2027 start)",
+   "type": "graduate",
+   "years": [
+    3,
+    4
+   ],
+   "sector": "Economic consulting",
+   "location": "London",
+   "opens": "2026-09-21",
+   "deadline": "2027-01-29",
+   "deadline_note": "Posting states 'Applications for an Autumn 2027 start close on 29th January 2027'. Earlier cycles interviewed in waves, so applying early helps.",
+   "status": "open",
+   "url": "https://fticonsulting.wd108.myworkdayjobs.com/CompassLexeconCareers/job/London-United-Kingdom/Analyst---Competition-Practice---London_JR261333",
+   "source": "https://fticonsulting.wd108.myworkdayjobs.com/CompassLexeconCareers/job/London-United-Kingdom/Analyst---Competition-Practice---London_JR261333",
+   "checked": "2026-10-22",
+   "confidence": "confirmed",
+   "visa": "Not stated in posting; ask recruitment team.",
+   "notes": "Competition-economics analyst role; posting says analysts typically join after completing a Master's in economics (IO/micro/econometrics ideal). Stata/Excel empirical work."
+  },
+  {
+   "id": "pgt-compass-lexecon-summer-intern-competition-london-2027",
+   "org": "Compass Lexecon",
+   "title": "Summer Intern | Competition Practice | London (Summer 2027)",
+   "type": "internship",
+   "years": [
+    3,
+    4
+   ],
+   "sector": "Economic consulting",
+   "location": "London",
+   "opens": "2026-09-21",
+   "deadline": "2027-01-29",
+   "deadline_note": "Posting states 'Applications for a Summer 2027 start close on 29th January 2027'.",
+   "status": "open",
+   "url": "https://fticonsulting.wd108.myworkdayjobs.com/CompassLexeconCareers/job/London-United-Kingdom/Summer-Intern---Competition-Practice---London_JR261342",
+   "source": "https://fticonsulting.wd108.myworkdayjobs.com/CompassLexeconCareers/job/London-United-Kingdom/Summer-Intern---Competition-Practice---London_JR261342",
+   "checked": "2026-10-22",
+   "confidence": "confirmed",
+   "visa": "Not stated. Summer 2027 overlaps the SOAS dissertation period, so Student-visa holders must check work-hour limits; state availability in cover letter.",
+   "notes": "Open to those currently undertaking or recently completed a Bachelor's, Master's or PhD; cover letter should state availability dates."
+  },
+  {
+   "id": "pgt-compass-lexecon-analyst-financial-economics-london",
+   "org": "Compass Lexecon",
+   "title": "Analyst | Financial Economics | London / Madrid",
+   "type": "graduate",
+   "years": [
+    4
+   ],
+   "sector": "Economic consulting",
+   "location": "London",
+   "opens": "2026-10-20",
+   "deadline": null,
+   "deadline_note": "No deadline in posting text; the ATS listing shows a posting end date of 29 Jan 2027 (unconfirmed as the deadline).",
+   "status": "open",
+   "url": "https://fticonsulting.wd108.myworkdayjobs.com/CompassLexeconCareers/job/London-United-Kingdom/Analyst---Financial-Economics---London---Madrid_JR261532",
+   "source": "https://fticonsulting.wd108.myworkdayjobs.com/CompassLexeconCareers/job/London-United-Kingdom/Analyst---Financial-Economics---London---Madrid_JR261532",
+   "checked": "2026-10-22",
+   "confidence": "confirmed",
+   "visa": "Not stated in posting.",
+   "notes": "Financial economics / disputes and valuation analyst; usually hired after an economics undergraduate degree plus a Master's in Finance or Economics. Suits MSc students with corporate finance/valuation interest."
+  },
+  {
+   "id": "pgt-compass-lexecon-intern-energy-london",
+   "org": "Compass Lexecon",
+   "title": "Intern | Energy Practice | London (up to 6 months, start by Spring 2027)",
+   "type": "internship",
+   "years": [
+    4
+   ],
+   "sector": "Economic consulting",
+   "location": "London",
+   "opens": "2026-09-23",
+   "deadline": null,
+   "deadline_note": "No deadline in posting; start flexible between now and Spring 2027. ATS posting end date shows 25 Apr 2027.",
+   "status": "open",
+   "url": "https://fticonsulting.wd108.myworkdayjobs.com/CompassLexeconCareers/job/London-United-Kingdom/Intern---Energy-Practice---London_JR261417",
+   "source": "https://fticonsulting.wd108.myworkdayjobs.com/CompassLexeconCareers/job/London-United-Kingdom/Intern---Energy-Practice---London_JR261417",
+   "checked": "2026-10-22",
+   "confidence": "confirmed",
+   "visa": "Not stated. Full-time internship during the taught year is unlikely to fit Student-visa work limits; more realistic for home students or after completion.",
+   "notes": "Energy-markets internship; interns typically join during or shortly after a Master's in Economics, Finance, Engineering, Statistics or related."
+  },
+  {
+   "id": "pgt-nera-associate-analyst-energy-london",
+   "org": "NERA Economic Consulting (Marsh McLennan)",
+   "title": "Associate Analyst/Analyst - Energy & Natural Resources (London)",
+   "type": "graduate",
+   "years": [
+    4
+   ],
+   "sector": "Economic consulting",
+   "location": "London",
+   "opens": "2026-08-10",
+   "deadline": null,
+   "deadline_note": "No closing date stated; appears to be a rolling posting.",
+   "status": "open",
+   "url": "https://mmc.wd1.myworkdayjobs.com/MMC/job/London---St-Botolph/NERA-Research-Officer-Economic-Analyst---Energy-and-Natural-Resources_R_321718-1",
+   "source": "https://mmc.wd1.myworkdayjobs.com/MMC/job/London---St-Botolph/NERA-Research-Officer-Economic-Analyst---Energy-and-Natural-Resources_R_321718-1",
+   "checked": "2026-10-22",
+   "confidence": "confirmed",
+   "visa": "Not stated in posting.",
+   "notes": "Entry analyst role in energy/regulation; requires a BA/BSc plus a Master's or PhD in Economics with exceptional academic record. Strong fit for MSc economists."
+  },
+  {
+   "id": "pgt-nera-summer-intern-2027-london",
+   "org": "NERA Economic Consulting (Marsh McLennan)",
+   "title": "NERA Summer Intern 2027 - London",
+   "type": "internship",
+   "years": [
+    2,
+    3,
+    4
+   ],
+   "sector": "Economic consulting",
+   "location": "London",
+   "opens": "2026-10-13",
+   "deadline": null,
+   "deadline_note": "No closing date stated in posting.",
+   "status": "open",
+   "url": "https://mmc.wd1.myworkdayjobs.com/MMC/job/London---St-Botolph/NERA-Summer-Intern-2027---London_R_363208",
+   "source": "https://mmc.wd1.myworkdayjobs.com/MMC/job/London---St-Botolph/NERA-Summer-Intern-2027---London_R_363208",
+   "checked": "2026-10-22",
+   "confidence": "confirmed",
+   "visa": "Posting requires the right to work in the UK (no sponsorship indicated).",
+   "notes": "Paid summer internship on real cases (energy, regulation, finance, litigation). Asks applicants to state whether they plan a Master's, so mainly aimed at undergraduates; PGT students should check eligibility."
+  },
+  {
+   "id": "pgt-cra-consulting-associate-european-competition-2027",
+   "org": "Charles River Associates (CRA)",
+   "title": "[2027 Master's graduates] Consulting Associate (European Competition practice)",
+   "type": "graduate",
+   "years": [
+    4
+   ],
+   "sector": "Economic consulting",
+   "location": "London",
+   "opens": null,
+   "deadline": null,
+   "deadline_note": "Applications reviewed on a rolling basis; no deadline stated. Apply early.",
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/charlesriverassociates/jobs/8186469",
+   "source": "https://job-boards.greenhouse.io/charlesriverassociates/jobs/8186469",
+   "checked": "2026-10-22",
+   "confidence": "confirmed",
+   "visa": "Posting mentions in-house immigration support for foreign nationals.",
+   "notes": "Entry-level role specifically for postgraduates (MSc/MPhil economics) graduating Dec 2026-Aug 2027 - SOAS Sept 2027 completers should confirm eligibility with CRA. IO specialism preferred; Stata/Python/R."
+  },
+  {
+   "id": "pgt-cornerstone-analyst-london-2027",
+   "org": "Cornerstone Research",
+   "title": "Analyst, London",
+   "type": "graduate",
+   "years": [
+    3,
+    4
+   ],
+   "sector": "Economic consulting",
+   "location": "London",
+   "opens": "2026-08-31",
+   "deadline": "2026-11-15",
+   "deadline_note": "Posting states UK applicants must apply by 15 November 2026.",
+   "status": "open",
+   "url": "https://uguk-chire.icims.com/jobs/4083/analyst%2c-london/job?in_iframe=1",
+   "source": "https://uguk-chire.icims.com/jobs/4083/analyst%2c-london/job?in_iframe=1",
+   "checked": "2026-10-22",
+   "confidence": "confirmed",
+   "visa": "Not stated in posting.",
+   "notes": "Open to final-year undergraduates or Master's students with expected graduation Dec 2026-Jul 2027; SOAS Sept 2027 finishers should check with the firm. Litigation/finance economics; cover letter, CV and transcript."
+  },
+  {
+   "id": "pgt-analysis-group-analyst-generalist-london-2027",
+   "org": "Analysis Group",
+   "title": "Analyst - Generalist - London (2027 Start Date)",
+   "type": "graduate",
+   "years": [
+    2,
+    3,
+    4
+   ],
+   "sector": "Economic consulting",
+   "location": "London",
+   "opens": null,
+   "deadline": null,
+   "deadline_note": "Applications reviewed on a rolling basis until positions are filled.",
+   "status": "open",
+   "url": "https://analystcareers-analysisgroup.icims.com/jobs/2956/analyst---generalist---london-%282027-start-date%29/job?in_iframe=1",
+   "source": "https://analystcareers-analysisgroup.icims.com/jobs/2956/analyst---generalist---london-%282027-start-date%29/job?in_iframe=1",
+   "checked": "2026-10-22",
+   "confidence": "confirmed",
+   "visa": "Posting states Analysis Group will provide immigration support to eligible candidates before employment begins, as appropriate under immigration policy.",
+   "notes": "Requires a Master's in economics, finance, data analytics or related quantitative subject; work experience a plus but not required. Submit CV, unofficial transcript and cover letter stating office preference."
+  },
+  {
+   "id": "pgt-analysis-group-intern-health-care-london-2027",
+   "org": "Analysis Group",
+   "title": "Analyst Intern - Health Care (HEOR, Epidemiology & Market Access) - London (2027)",
+   "type": "internship",
+   "years": [
+    4
+   ],
+   "sector": "Economic consulting",
+   "location": "London",
+   "opens": null,
+   "deadline": null,
+   "deadline_note": "No deadline stated.",
+   "status": "open",
+   "url": "https://analystcareers-analysisgroup.icims.com/jobs/3079/analyst-intern---health-care-%28heor%2c-epidemiology-%26-market-access%29---london-%282027-start-date%29/job?in_iframe=1",
+   "source": "https://analystcareers-analysisgroup.icims.com/jobs/3079/analyst-intern---health-care-%28heor%2c-epidemiology-%26-market-access%29---london-%282027-start-date%29/job?in_iframe=1",
+   "checked": "2026-10-22",
+   "confidence": "confirmed",
+   "visa": "Posting states Analysis Group sponsors work authorisation for full-time roles but NOT internships; candidates must already be authorised to work in the UK.",
+   "notes": "Aimed at Master's students (in-progress preferred) in health economics or a quantitative field. Relevant for students with health/development economics interests."
+  },
+  {
+   "id": "pgt-brattle-research-analyst-competition-london-2027",
+   "org": "The Brattle Group",
+   "title": "2027 Research Analyst - Competition - London",
+   "type": "graduate",
+   "years": [
+    3,
+    4
+   ],
+   "sector": "Economic consulting",
+   "location": "London",
+   "opens": null,
+   "deadline": null,
+   "deadline_note": "No deadline stated in posting.",
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/thebrattlegroup/jobs/4740967005",
+   "source": "https://job-boards.greenhouse.io/thebrattlegroup/jobs/4740967005",
+   "checked": "2026-10-22",
+   "confidence": "confirmed",
+   "visa": "Not stated in posting.",
+   "notes": "Ideal candidate holds a Master's in a quantitative discipline (e.g. economics, competition and regulation). Submit cover letter, CV and transcripts; antitrust interest and Stata/R/Excel valued."
+  },
+  {
+   "id": "pgt-brattle-research-analyst-arbitration-london-2027",
+   "org": "The Brattle Group",
+   "title": "2027 Research Analyst - International Arbitration - London (July 2027 start)",
+   "type": "graduate",
+   "years": [
+    4
+   ],
+   "sector": "Economic consulting",
+   "location": "London",
+   "opens": null,
+   "deadline": null,
+   "deadline_note": "No deadline stated; posting says start is July 2027.",
+   "status": "open",
+   "url": "https://job-boards.greenhouse.io/thebrattlegroup/jobs/4740944005",
+   "source": "https://job-boards.greenhouse.io/thebrattlegroup/jobs/4740944005",
+   "checked": "2026-10-22",
+   "confidence": "confirmed",
+   "visa": "Not stated in posting.",
+   "notes": "International arbitration (damages/valuation) research analyst. July 2027 start precedes a Sept 2027 SOAS completion, so discuss start date flexibility; degree requirement not verified in detail."
+  },
+  {
+   "id": "pgt-rbb-economics-economist-2026-27",
+   "org": "RBB Economics",
+   "title": "#26/27 Application to RBB Economics (Associate Economist / Intern)",
+   "type": "graduate",
+   "years": [
+    4
+   ],
+   "sector": "Economic consulting",
+   "location": "London",
+   "opens": null,
+   "deadline": null,
+   "deadline_note": "No deadline stated; careers page says applications welcomed all year round.",
+   "status": "open",
+   "url": "https://cezanneondemand.intervieweb.it/rbbecon/jobs/2627-application-to-rbb-economics-63289/en/",
+   "source": "https://www.rbbecon.com/careers",
+   "checked": "2026-10-22",
+   "confidence": "confirmed",
+   "visa": "Not stated for the role; the application privacy notice refers to RBB's obligations as a (Tier 2) sponsor - ask directly.",
+   "notes": "Single application route for economist and intern roles across offices; economist roles want an economics degree, preferably to Master's level, with IO/micro/econometrics interest."
+  },
+  {
+   "id": "pgt-fti-graduate-scheme-economic-financial-consulting-2027",
+   "org": "FTI Consulting",
+   "title": "2027 Graduate Scheme, Economic & Financial Consulting - London",
+   "type": "graduate",
+   "years": [
+    3,
+    4
+   ],
+   "sector": "Economic consulting",
+   "location": "London",
+   "opens": "2026-10-01",
+   "deadline": "2026-10-29",
+   "deadline_note": "Posting states 'The deadline for applications is: 29 October 2026'.",
+   "status": "open",
+   "url": "https://fticonsulting.wd108.myworkdayjobs.com/FTIConsultingCareers/job/London-United-Kingdom/XMLNAME-2027-Graduate-Scheme--Economic---Financial-Consulting_JR260937",
+   "source": "https://fticonsulting.wd108.myworkdayjobs.com/FTIConsultingCareers/job/London-United-Kingdom/XMLNAME-2027-Graduate-Scheme--Economic---Financial-Consulting_JR260937",
+   "checked": "2026-10-22",
+   "confidence": "confirmed",
+   "visa": "Not stated in posting.",
+   "notes": "Open to all academic backgrounds with a 2:1 (Master's not required but relevant). Must be available full-time from 6 September 2027 - SOAS PGTs should check this against dissertation submission. Deadline one week away."
+  },
+  {
+   "id": "pgt-hsbc-global-research-graduate",
+   "org": "HSBC",
+   "title": "Global Research Graduate Programme",
+   "type": "graduate",
+   "years": [
+    3,
+    4
+   ],
+   "sector": "Investment banking",
+   "location": "London",
+   "opens": null,
+   "deadline": null,
+   "deadline_note": "Programme page lists many early-careers roles; no Global Research 2027 vacancy with dates was visible in the first results. Join the HSBC Talent Community for alerts.",
+   "status": "unknown",
+   "url": "https://www.hsbc.com/careers/students-and-graduates/graduate-opportunities/global-research-graduate-programme",
+   "source": "https://www.hsbc.com/careers/students-and-graduates/graduate-opportunities/global-research-graduate-programme",
+   "checked": "2026-10-22",
+   "confidence": "estimated",
+   "visa": "Not stated on programme page.",
+   "notes": "Two-year research programme covering macroeconomic, ESG, sector and company research leading to research analyst roles; one of the few bank schemes with an explicit economics-research track."
+  },
+  {
    "id": "ges-summer-placement-2027",
    "org": "Government Economic Service (GES)",
    "title": "GES Summer Placement Scheme (summer 2027, 6-12 weeks)",
@@ -4683,7 +5586,8 @@
    "title": "GES Assistant Economist Graduate Scheme",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Government & regulators",
    "location": "London and UK-wide",
@@ -4704,7 +5608,8 @@
    "title": "Government Economic Service Fast Stream scheme (2027 entry)",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Government & regulators",
    "location": "UK-wide incl. London",
@@ -4725,7 +5630,8 @@
    "title": "Diplomatic and Development Economics Fast Stream scheme (2027 entry)",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Government & regulators",
    "location": "London and East Kilbride, then overseas",
@@ -4746,7 +5652,8 @@
    "title": "Government Statistical Service Fast Stream scheme (2027 entry)",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Government & regulators",
    "location": "UK-wide incl. London",
@@ -4767,7 +5674,8 @@
    "title": "Civil Service Fast Stream - all 18 schemes, e.g. Policy, Finance, Operational Research (2027 entry)",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Government & regulators",
    "location": "UK-wide incl. London",
@@ -4831,7 +5739,8 @@
    "title": "HM Treasury Graduate Policy Programme (2026-27 campaign)",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Government & regulators",
    "location": "London or Darlington",
@@ -4959,20 +5868,21 @@
    "title": "Bank of England Graduate Development Programme (2027 start)",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Central banks",
    "location": "London / Leeds",
    "opens": null,
    "deadline": null,
    "deadline_note": "Checked 22 Oct 2026: the Bank's graduate programme page says applications are closed and gives no 2027 dates; register interest on the page.",
-   "status": "opening_soon",
+   "status": "unknown",
    "url": "https://www.bankofengland.co.uk/careers/future-talent/graduate-programme",
    "source": "https://www.bankofengland.co.uk/careers/future-talent",
    "checked": "2026-10-22",
    "confidence": "estimated",
    "visa": "Visa sponsorship may be offered in specific circumstances (case-by-case); the applicant pays Skilled Worker visa and IHS costs. National Security Vetting required.",
-   "notes": "24-month rotational programme leading to a permanent role; streams include economics/policy areas. Only the first application per round is considered."
+   "notes": "24-month rotational programme leading to a permanent role; streams include economics/policy areas. Only the first application per round is considered. Masters economists can apply through the Postgraduate stream (Monetary Analysis, International, Markets)."
   },
   {
    "id": "pra-via-bank-of-england",
@@ -5002,7 +5912,8 @@
    "title": "2027 Regulatory Graduate Programme (London / Leeds / Edinburgh)",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Government & regulators",
    "location": "London",
@@ -5044,7 +5955,8 @@
    "title": "FCA Economics Graduate Programme / Economics internship (2027)",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Government & regulators",
    "location": "London",
@@ -5087,7 +5999,8 @@
    "title": "CMA Delivery Graduate Scheme",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Government & regulators",
    "location": "London / Manchester / Edinburgh",
@@ -5108,7 +6021,8 @@
    "title": "Ofcom Graduate Programme (2-year, specialist pathways)",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Government & regulators",
    "location": "London / Manchester / Edinburgh",
@@ -5173,7 +6087,8 @@
    "title": "Ofgem Graduate Development Programme",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Government & regulators",
    "location": "London / Glasgow",
@@ -5211,55 +6126,13 @@
    "notes": "Has offered an economics stream on its graduate programme and a 12-month economics placement. The official page could not be loaded to confirm the current status."
   },
   {
-   "id": "ifs-summer-students-2027",
-   "org": "Institute for Fiscal Studies (IFS)",
-   "title": "IFS Summer Student research placements (approx. 6 weeks)",
-   "type": "internship",
-   "years": [
-    2,
-    3
-   ],
-   "sector": "Think tanks & research",
-   "location": "London",
-   "opens": null,
-   "deadline": "2027-01-17",
-   "deadline_note": "The BeApplied posting linked from the IFS jobs page closes at 11pm GMT on 17 January 2027. Applicants also complete a timed online numeracy test by the deadline. IFS says it started recruiting in early October 2026; exact opening date not stated.",
-   "status": "open",
-   "url": "https://ifs.org.uk/summer-internships",
-   "source": "https://app.beapplied.com/apply/modykqbj4m",
-   "checked": "2026-10-19",
-   "confidence": "confirmed",
-   "visa": "IFS cannot sponsor visas for summer placements; you need existing right to work in the UK.",
-   "notes": "Usually 6-week (possibly 8-week) paid research placements, around GBP 28,860 pro rata. For penultimate- or final-year undergraduates with a strong economics component expecting a First, or economics master's students; interviews are in central London."
-  },
-  {
-   "id": "ifs-research-economist",
-   "org": "Institute for Fiscal Studies (IFS)",
-   "title": "IFS Research Economist (graduate entry)",
-   "type": "graduate",
-   "years": [
-    3
-   ],
-   "sector": "Think tanks & research",
-   "location": "London",
-   "opens": null,
-   "deadline": "2026-11-08",
-   "deadline_note": "The BeApplied posting linked from the IFS jobs page closes at 11:55pm GMT on 8 November 2026. Exact opening date not stated (IFS says recruitment began in early October 2026).",
-   "status": "open",
-   "url": "https://ifs.org.uk/jobs",
-   "source": "https://app.beapplied.com/apply/udmayprjwe",
-   "checked": "2026-10-19",
-   "confidence": "confirmed",
-   "visa": "The posting says the role is eligible for a Skilled Worker visa and IFS will support the application where needed.",
-   "notes": "Open to final-year students expecting an extremely good degree in economics (or with a significant economics component). New graduates start on GBP 44,500, and IFS funds part-time master's study. Very competitive."
-  },
-  {
    "id": "ifg-research-internship-2027-28",
    "org": "Institute for Government",
    "title": "IfG Research Internship 2027-28 (12-month paid graduate internship)",
    "type": "graduate",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Think tanks & research",
    "location": "London",
@@ -5280,7 +6153,8 @@
    "title": "Research Training Programme (12-week placement for recent graduates)",
    "type": "diversity",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Think tanks & research",
    "location": "London",
@@ -5301,7 +6175,8 @@
    "title": "NIESR vacancies - no student/graduate scheme",
    "type": "resource",
    "years": [
-    3
+    3,
+    4
    ],
    "sector": "Think tanks & research",
    "location": "London",
@@ -5317,27 +6192,6 @@
    "notes": "No formal internship or graduate programme; junior research roles are advertised ad hoc, including on jobs.ac.uk."
   },
   {
-   "id": "world-bank-internship",
-   "org": "World Bank Group",
-   "title": "World Bank Group Internship Program",
-   "type": "resource",
-   "years": [
-    3
-   ],
-   "sector": "International organisations",
-   "location": "Washington DC / country offices",
-   "opens": null,
-   "deadline": null,
-   "deadline_note": "The official page says Spring/Summer cycle applications run January-February and Winter/Fall July-August. No year-specific deadline is given.",
-   "status": "unknown",
-   "url": "https://www.worldbank.org/en/about/careers/programs-and-internships/internship",
-   "source": "https://www.worldbank.org/en/about/careers/programs-and-internships/internship",
-   "checked": "2026-10-15",
-   "confidence": "estimated",
-   "visa": "Must be a citizen of a WBG member country (the UK and most countries are members). Mostly based outside the UK.",
-   "notes": "Final-year undergraduates are eligible only for specific undergraduate-designated roles (e.g. Treasury intern); most internships want postgraduates."
-  },
-  {
    "id": "oecd-internship-programme",
    "org": "OECD",
    "title": "OECD Internship Programme (rolling)",
@@ -5345,7 +6199,8 @@
    "years": [
     1,
     2,
-    3
+    3,
+    4
    ],
    "sector": "International organisations",
    "location": "Mainly Paris; some hybrid or remote",
@@ -5359,48 +6214,6 @@
    "confidence": "confirmed",
    "visa": "Internships are primarily allocated to nationals of OECD member countries (the UK is one); non-member nationals are considered for specific programmes. You must be enrolled in a full-time degree for the whole internship.",
    "notes": "1-6 month internships (renewable to 12) open to bachelor's, master's and PhD students; most interns are postgraduates. Pays EUR 1,000 per full month for Paris-based interns; needs excellent English or French."
-  },
-  {
-   "id": "ecb-traineeship",
-   "org": "European Central Bank",
-   "title": "ECB Traineeship Programme",
-   "type": "resource",
-   "years": [
-    3
-   ],
-   "sector": "International organisations",
-   "location": "Frankfurt",
-   "opens": null,
-   "deadline": null,
-   "deadline_note": "Rolling vacancy notices on the ECB career portal; no cycle dates.",
-   "status": "unknown",
-   "url": "https://www.ecb.europa.eu/careers/what-we-offer/traineeship/html/index.en.html",
-   "source": "https://www.ecb.europa.eu/careers/what-we-offer/traineeship/html/index.en.html",
-   "checked": "2026-10-15",
-   "confidence": "estimated",
-   "visa": "EU member state or acceding-country nationals only. UK-only nationals are NOT eligible.",
-   "notes": "Requires a completed bachelor's degree (so for graduates, not current undergrads) and English plus another EU language. The ECB Graduate Programme requires a master's."
-  },
-  {
-   "id": "bis-graduate-programme",
-   "org": "Bank for International Settlements (BIS)",
-   "title": "BIS Graduate Programme (up to 11 months)",
-   "type": "resource",
-   "years": [
-    3
-   ],
-   "sector": "International organisations",
-   "location": "Basel, Switzerland",
-   "opens": null,
-   "deadline": null,
-   "deadline_note": "Official page says opportunities are usually advertised in spring; no 2027 dates published.",
-   "status": "unknown",
-   "url": "https://www.bis.org/about/careers/early-careers",
-   "source": "https://www.bis.org/about/careers/early-careers",
-   "checked": "2026-10-15",
-   "confidence": "estimated",
-   "visa": "Open to all nationalities.",
-   "notes": "For recent or soon-to-be graduates with a bachelor's or master's and strong analytical skills; non-renewable contract in Basel. No undergraduate internship is listed."
   }
  ]
 }

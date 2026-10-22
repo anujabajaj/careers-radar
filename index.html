@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="description" content="Spring weeks, internships, placements and graduate roles for SOAS Economics undergraduates, sorted by year group, with deadlines and links checked twice a week.">
+<meta name="description" content="Spring weeks, internships, placements and graduate roles for SOAS Economics undergraduate and Masters students, sorted by year group, with deadlines and links checked twice a week.">
 <meta name="theme-color" content="#000000">
 <link rel="icon" type="image/png" href="soas-economics-logo.png">
 <link rel="apple-touch-icon" href="soas-economics-logo.png">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Economics Careers Radar · SOAS Economics">
-<meta property="og:description" content="Spring weeks, internships, placements and graduate roles for SOAS Economics undergraduates, sorted by year group, with deadlines and links checked twice a week.">
+<meta property="og:description" content="Spring weeks, internships, placements and graduate roles for SOAS Economics undergraduate and Masters students, sorted by year group, with deadlines and links checked twice a week.">
 <meta property="og:url" content="https://anujabajaj.github.io/careers-radar/">
 <meta property="og:image" content="https://anujabajaj.github.io/careers-radar/soas-economics-logo.png">
 <meta name="twitter:card" content="summary">
@@ -95,16 +95,16 @@ h1, h2, h3 { font-family: var(--display); font-weight: 400; text-wrap: balance; 
 .lede { margin: 0; }
 
 /* Year switch */
-.years { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0; border: 2px solid var(--ink); background: var(--surface); }
-.years button { all: unset; cursor: pointer; padding: 14px 16px; display: grid; gap: 2px; border-right: 2px solid var(--ink); min-width: 0; }
-.years button:last-child { border-right: 0; }
+.years { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 2px; border: 2px solid var(--ink); background: var(--ink); }
+.years button { all: unset; cursor: pointer; padding: 14px 16px; display: grid; gap: 2px; min-width: 0; background: var(--surface); }
+.years button[data-year="4"] .y { white-space: nowrap; }
 .years button .y { font-family: var(--display); font-size: 26px; line-height: 1.1; color: var(--fg); }
 .years button .d { font-size: 12.5px; color: var(--muted); font-weight: 600; }
 .years button:hover { background: var(--sunk); }
 .years button[aria-pressed="true"] { background: var(--accent); }
 .years button[aria-pressed="true"] .y, .years button[aria-pressed="true"] .d { color: var(--on-accent); }
 .years button:focus-visible { outline-offset: -3px; }
-@media (max-width: 640px) { .years { grid-template-columns: repeat(2, minmax(0,1fr)); } .years button:nth-child(2) { border-right: 0; } .years button:nth-child(-n+2) { border-bottom: 1px solid var(--line); } }
+@media (max-width: 900px) { .years { grid-template-columns: repeat(2, minmax(0,1fr)); } .years button[data-year="all"] { grid-column: 1 / -1; } }
 
 /* Guidance */
 .guide { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 20px; align-items: start; }
@@ -297,7 +297,7 @@ section > h2 { font-size: 22px; margin-bottom: 10px; color: var(--ink); }
       </div>
     </div>
     <h1>Economics Careers <em>Radar</em></h1>
-    <p class="lede">Spring weeks, internships, placements and graduate roles for our undergraduate Economics students, sorted by the year you are in. Every listing links to the employer's own page and says when it was last checked.</p>
+    <p class="lede">Spring weeks, internships, placements and graduate roles for our undergraduate and Masters Economics students, sorted by the year you are in. Every listing links to the employer's own page and says when it was last checked.</p>
     <div class="meta">
       <span>Last checked: <b id="checkedAt">loading…</b></span>
       <span><b id="totalCount">–</b> listings</span>
@@ -312,6 +312,7 @@ section > h2 { font-size: 22px; margin-bottom: 10px; color: var(--ink); }
     <button type="button" data-year="1" aria-pressed="false"><span class="y">Year 1</span><span class="d">Spring weeks &amp; insight</span></button>
     <button type="button" data-year="2" aria-pressed="false"><span class="y">Year 2</span><span class="d">Summer internships</span></button>
     <button type="button" data-year="3" aria-pressed="false"><span class="y">Year 3</span><span class="d">Graduate roles</span></button>
+    <button type="button" data-year="4" aria-pressed="false"><span class="y">Masters (PGT)</span><span class="d">MSc roles, policy &amp; research</span></button>
     <button type="button" data-year="all" aria-pressed="true"><span class="y">All years</span><span class="d">Everything</span></button>
   </nav>
 
@@ -418,13 +419,14 @@ section > h2 { font-size: 22px; margin-bottom: 10px; color: var(--ink); }
   const TYPES = {
     spring: "Spring week", insight: "Insight / open day", internship: "Summer internship",
     placement: "Placement year", graduate: "Graduate role", diversity: "Access programme",
-    competition: "Competition", resource: "Resource"
+    competition: "Competition", fellowship: "Fellowship / research", resource: "Resource"
   };
   const GUIDE = {
     "1": { h: "Year 1: get a spring week", p: "Spring weeks are short paid or unpaid programmes, usually at Easter, for first-years on a three-year degree. Many firms fast-track spring week students straight to next year's internship.", li: ["Most open September to November and close by January, often earlier on a rolling basis.", "Apply to several: banks, asset managers, Big 4 and the Bank of England all run them.", "Look at access programmes too (SEO London, upReach, 10,000 Black Interns) if you're eligible."] },
     "2": { h: "Year 2: secure a summer internship", p: "Penultimate-year summer internships are the main route into graduate jobs in finance, consulting and economics consultancy. Strong interns usually receive a graduate offer.", li: ["Banks and consultancies open July to October and fill places on a rolling basis through the autumn.", "The Government Economic Service and Civil Service SDIP run separate summer schemes.", "Considering a year in industry? Placement-year roles are listed here too."] },
     "3": { h: "Year 3: land a graduate role", p: "Graduate programmes for September 2027 starts open in the autumn of your final year. Economic consultancies, the GES and regulators hire economists directly.", li: ["Most finance and consulting graduate roles close between October and December.", "Public sector schemes (GES, Bank of England, FCA) have their own fixed windows: check the dates.", "If you did an internship, ask about a return offer before applying elsewhere."] },
-    "all": { h: "Every year group", p: "Pick your year above to see what's right for you now. Year 1 is about spring weeks, Year 2 about summer internships, Year 3 about graduate roles.", li: ["Deadlines shown are the employer's own published dates.", "Rolling deadlines can close early, so apply as soon as you're ready.", "Star a listing to add it to your shortlist on this device."] }
+    "4": { h: "Masters (PGT): move fast", p: "A one-year Masters leaves little time. Graduate roles starting in September 2027 are recruiting now, in your first term. Economic consultancies, central banks, regulators and international organisations often prefer or require a Masters.", li: ["Apply for graduate schemes and MSc analyst roles this autumn: many close by December, some earlier on a rolling basis.", "International organisation internships (IMF, World Bank, OECD, UN) usually need you to be enrolled on a Masters and open at fixed times of year.", "On a Student visa? Check each employer's sponsorship policy under Details · right to work, and the Graduate Route rules in Useful links."] },
+    "all": { h: "Every year group", p: "Pick your year above to see what's right for you now. Year 1 is about spring weeks, Year 2 about summer internships, Year 3 about graduate roles, and Masters students have their own tab.", li: ["Deadlines shown are the employer's own published dates.", "Rolling deadlines can close early, so apply as soon as you're ready.", "Star a listing to add it to your shortlist on this device."] }
   };
   // Typical UK recruitment calendar, Sep -> Aug. a = applications open, p = busiest window, d = programme runs
   const MONTHS = ["Sep","Oct","Nov","Dec","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug"];
@@ -434,7 +436,8 @@ section > h2 { font-size: 22px; margin-bottom: 10px; color: var(--ink); }
     { row: "Placement year (Y2)", cells: "ppaaaaa....d" },
     { row: "Graduate roles (Y3)", cells: "ppaaaaa....." },
     { row: "Civil Service SDIP / GES", cells: ".aa.aa...dd." },
-    { row: "Access programmes", cells: "aaaaaaaaa..." }
+    { row: "Access programmes", cells: "aaaaaaaaa..." },
+    { row: "Masters (PGT) graduate roles", cells: "ppaaaa......" }
   ];
 
   const store = {
@@ -468,6 +471,7 @@ section > h2 { font-size: 22px; margin-bottom: 10px; color: var(--ink); }
   }
   const STATUS_LABEL = { open: "Open", opening_soon: "Opening soon", closed: "Closed", unknown: "Check site" };
 
+  const yearTag = (y) => Number(y) === 4 ? "PGT" : "Y" + y;
   function inYear(o) { return state.year === "all" || (o.years || []).includes(Number(state.year)); }
 
   function filtered() {
@@ -499,7 +503,7 @@ section > h2 { font-size: 22px; margin-bottom: 10px; color: var(--ink); }
   function card(o) {
     const st = liveStatus(o);
     const url = safeUrl(o.url), src = safeUrl(o.source);
-    const yrs = (o.years || []).map(y => `<span class="tag yr">Y${y}</span>`).join("");
+    const yrs = (o.years || []).map(y => `<span class="tag yr">${yearTag(y)}</span>`).join("");
     const saved = state.saved.has(o.id), applied = state.applied.has(o.id);
     const conf = o.confidence === "confirmed"
       ? `<span class="conf" title="Shown on the employer's page for this cycle">✓ Confirmed</span>`
@@ -532,6 +536,7 @@ section > h2 { font-size: 22px; margin-bottom: 10px; color: var(--ink); }
     "1": "Year 1: book Guidance if you're not sure which sectors to try, and Application advice before you send spring week applications. Many spring weeks close in November.",
     "2": "Year 2: book Application advice to sharpen your CV and cover letter for internships, and Interview coaching as soon as you're invited to an interview or assessment centre.",
     "3": "Year 3: book Guidance to weigh up graduate schemes, further study and other options, and Interview coaching before final rounds.",
+    "4": "Masters (PGT): book Application advice in your first weeks, since many graduate roles close before December, and Guidance if you're weighing up a PhD, policy or private-sector route. Interview coaching helps with technical and case interviews.",
     "all": "Free one-to-one help from the SOAS Careers team for every year group. Choose your year above for advice on what to book."
   };
   function renderGuide() {
@@ -586,7 +591,7 @@ section > h2 { font-size: 22px; margin-bottom: 10px; color: var(--ink); }
     const d = daysTo(o.deadline), st = liveStatus(o);
     return {
       "Organisation": o.org, "Programme": o.title, "Type": TYPES[o.type] || o.type, "Sector": o.sector,
-      "Year groups": (o.years || []).map(y => "Y" + y).join(", "), "Location": o.location,
+      "Year groups": (o.years || []).map(yearTag).join(", "), "Location": o.location,
       "Status": STATUS_LABEL[st], "Opens": parse(o.opens) || "", "Deadline": parse(o.deadline) || "",
       "Days left": d !== null && d >= 0 ? d : "", "Timing note": o.deadline_note,
       "Confidence": o.confidence === "confirmed" ? "Confirmed" : "Estimated: check site",
@@ -615,7 +620,7 @@ section > h2 { font-size: 22px; margin-bottom: 10px; color: var(--ink); }
       rank[liveStatus(a)] - rank[liveStatus(b)] || (a.deadline || "9999").localeCompare(b.deadline || "9999") || a.org.localeCompare(b.org));
     const wb = XLSX.utils.book_new();
     XLSX.utils.book_append_sheet(wb, sheet(all.map(toRow)), "All listings");
-    [1, 2, 3].forEach(y => XLSX.utils.book_append_sheet(wb, sheet(all.filter(o => o.years.includes(y)).map(toRow)), `Year ${y}`));
+    [1, 2, 3, 4].forEach(y => XLSX.utils.book_append_sheet(wb, sheet(all.filter(o => o.years.includes(y)).map(toRow)), y === 4 ? "Masters (PGT)" : `Year ${y}`));
     const mine = all.filter(o => state.saved.has(o.id) || state.applied.has(o.id));
     if (mine.length) XLSX.utils.book_append_sheet(wb, sheet(mine.map(toRow)), "My shortlist");
     const links = XLSX.utils.json_to_sheet(DATA.filter(o => o.type === "resource").map(o => ({ "Name": o.org, "What it is": o.title, "Notes": o.notes, "Link": o.url })));
