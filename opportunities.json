@@ -1,6 +1,6 @@
 {
  "meta": {
-  "checked": "2026-10-29",
+  "checked": "2026-11-02",
   "count": 288
  },
  "items": [
@@ -65,7 +65,7 @@
    "status": "opening_soon",
    "url": "https://www.gainuk.org/programmes/insight-programme/",
    "source": "https://www.gainuk.org/programmes/insight-programme/",
-   "checked": "2026-10-22",
+   "checked": "2026-11-02",
    "confidence": "estimated",
    "visa": "Page states international students are not yet eligible.",
    "notes": "For women and non-binary first-year students (or second year of a four-year course) at UK universities, any subject. Insight into investment management careers, meeting investors and spring insight days."
@@ -484,11 +484,11 @@
    "location": "Online / London final",
    "opens": "2026-04-20",
    "deadline": "2026-11-08",
-   "deadline_note": "Re-checked 29 Oct 2026: team applications opened 20 April 2026 with no close date given, and the page refers to people who 'missed out on applying for 2026'. Launch 8 Oct; workshops 13-27 Oct; presentation deadline 8 Nov 2026 (for registered teams); judging 10-17 Nov; finals 8-9 Dec 2026. Contact universities@gainuk.org about late entry.",
+   "deadline_note": "Re-checked 2 Nov 2026: team applications opened 20 April 2026 with no close date given, and the page refers to people who 'missed out on applying for 2026'. Launch 8 Oct; workshops 13-27 Oct; presentation deadline 8 Nov 2026 (for registered teams); judging 10-17 Nov; finals 8-9 Dec 2026. Contact universities@gainuk.org about late entry.",
    "status": "unknown",
    "url": "https://www.gainuk.org/programmes/university-investment-challenge/",
    "source": "https://www.gainuk.org/programmes/university-investment-challenge/",
-   "checked": "2026-10-29",
+   "checked": "2026-11-02",
    "confidence": "confirmed",
    "visa": "International students may enter.",
    "notes": "Free team competition (up to 5) for women and non-binary students in any year/subject who are members of a GAIN-partnered university society. Workshops, judging and mentoring for top teams."
@@ -603,7 +603,7 @@
    "status": "opening_soon",
    "url": "https://lsesueconsoc.org/competitions/",
    "source": "https://lsesueconsoc.org/competitions/",
-   "checked": "2026-10-22",
+   "checked": "2026-11-02",
    "confidence": "estimated",
    "visa": "",
    "notes": "Multiple-choice competition on economic theory and policy run by LSE's student Economics Society. Confirm undergraduate eligibility when the new cycle opens."
@@ -1498,11 +1498,11 @@
    "location": "London",
    "opens": "2026-11-02",
    "deadline": "2026-11-08",
-   "deadline_note": "Official DB application-window table: Spring into Banking 2027 (London: Technology, Data & Innovation; Investment Banking & Capital Markets; Fixed Income & Currencies) runs 2-8 Nov 2026 - a short window, so prepare in advance. Rise runs 2-29 Nov 2026; GROW and Advance dates not shown on the table. Re-checked 29 Oct 2026: official table still shows 2-8 Nov 2026.",
-   "status": "opening_soon",
+   "deadline_note": "Official DB application-window table: Spring into Banking 2027 (London: Technology, Data & Innovation; Investment Banking & Capital Markets; Fixed Income & Currencies) runs 2-8 Nov 2026 - a short window, so apply now. Rise runs 2-29 Nov 2026; GROW and Advance dates not shown on the table. Re-checked 2 Nov 2026: official table still shows 2-8 Nov 2026, so the window is now open.",
+   "status": "open",
    "url": "https://careers.db.com/students-graduates/insight-programmes/uk-and-ireland/spring-into-banking",
    "source": "https://careers.db.com/students-graduates/your-application/index?language_id=1",
-   "checked": "2026-10-29",
+   "checked": "2026-11-02",
    "confidence": "confirmed",
    "visa": "",
    "notes": "4-day programmes for first-years, any degree. Advance is for lower socio-economic backgrounds, GROW for women and Rise for students of Black heritage. Check eligibility for these diversity streams."
@@ -1586,7 +1586,7 @@
    "status": "open",
    "url": "https://www.lazard.com/about-lazard/locations/united-kingdom/careers-in-the-united-kingdom/early-career-programmes-in-the-uk/",
    "source": "https://www.lazard.com/about-lazard/locations/united-kingdom/careers-in-the-united-kingdom/early-career-programmes-in-the-uk/",
-   "checked": "2026-10-29",
+   "checked": "2026-11-02",
    "confidence": "confirmed",
    "visa": "Lazard states it will sponsor eligible candidates for work visas (2026-cycle FAQ).",
    "notes": "3-day programme with M&A workshops, an analyst 1:1, technical training and a group case study. Minimum predicted 2:1. Only one London Financial Advisory application per year."
@@ -1607,7 +1607,7 @@
    "status": "closed",
    "url": "https://www.lazard.com/about-lazard/locations/united-kingdom/careers-in-the-united-kingdom/early-career-programmes-in-the-uk/",
    "source": "https://www.lazard.com/about-lazard/locations/united-kingdom/careers-in-the-united-kingdom/early-career-programmes-in-the-uk/",
-   "checked": "2026-10-29",
+   "checked": "2026-11-02",
    "confidence": "confirmed",
    "visa": "Lazard sponsors eligible candidates for work visas (2026-cycle FAQ).",
    "notes": "10 weeks (late June–Aug/Sep) with one week of technical training, then a sector/product team. Ends with a presentation to senior bankers and can lead to a full-time analyst offer."
@@ -1629,7 +1629,7 @@
    "status": "closed",
    "url": "https://www.lazard.com/about-lazard/locations/united-kingdom/careers-in-the-united-kingdom/early-career-programmes-in-the-uk/",
    "source": "https://www.lazard.com/about-lazard/locations/united-kingdom/careers-in-the-united-kingdom/early-career-programmes-in-the-uk/",
-   "checked": "2026-10-29",
+   "checked": "2026-11-02",
    "confidence": "confirmed",
    "visa": "Lazard sponsors eligible candidates for work visas (2026-cycle FAQ).",
    "notes": "For final-year undergraduates or recent graduates. Analyst training starts late July. Only one London FA application per year."
@@ -2037,7 +2037,7 @@
    "status": "open",
    "url": "https://careers.occstrategy.com/vacancies/389/associate-consultant-2027-28--analytics-london-office.html",
    "source": "https://careers.occstrategy.com/vacancies/389/associate-consultant-2027-28--analytics-london-office.html",
-   "checked": "2026-10-29",
+   "checked": "2026-11-02",
    "confidence": "confirmed",
    "visa": "Limited number of visa sponsorships available, subject to availability.",
    "notes": "Quantitative degrees incl. Economics welcome; Python required (basic coding test). Same start dates and salary as the Strategy track."
@@ -2122,7 +2122,7 @@
    "status": "opening_soon",
    "url": "https://www.bain.com/careers/recruiting/london-recruiting/",
    "source": "https://www.bain.com/careers/recruiting/london-recruiting/",
-   "checked": "2026-10-29",
+   "checked": "2026-11-02",
    "confidence": "confirmed",
    "visa": "",
    "notes": "Listed by Bain as a 10-week full-time programme with no regional restriction stated; London dates not confirmed."
@@ -2316,7 +2316,7 @@
    "status": "opening_soon",
    "url": "https://www.deloitte.com/uk/en/careers/early-careers/early-careers-programmes.html",
    "source": "https://www.deloitte.com/uk/en/careers/early-careers/early-careers-programmes.html",
-   "checked": "2026-10-29",
+   "checked": "2026-11-02",
    "confidence": "confirmed",
    "visa": "Deloitte does not sponsor visas for Spring into Deloitte.",
    "notes": "Paid two-day insight for first-years (or second-years on 4-year degrees) on track for a 2:1. Apply on opening day as places fill; Deloitte has a one-application-per-year policy."
@@ -3272,7 +3272,7 @@
    "status": "open",
    "url": "https://careers.sky.com/earlycareers/internships/finance",
    "source": "https://apply.skyearlycareers.targetconnect.com/finance-internship-2027/905/viewdetails",
-   "checked": "2026-10-29",
+   "checked": "2026-11-02",
    "confidence": "confirmed",
    "visa": "",
    "notes": "Eight-week internship for penultimate-year students of any degree, linked to the Finance Graduate Programme. Sky also runs a 'Females into Finance' insight week (careers.sky.com/earlycareers/internships/females-into-finance)."
@@ -3769,7 +3769,7 @@
    "status": "open",
    "url": "https://www.janestreet.com/focus-ldn-email.html",
    "source": "https://www.janestreet.com/focus-ldn-email.html",
-   "checked": "2026-10-29",
+   "checked": "2026-11-02",
    "confidence": "confirmed",
    "visa": "",
    "notes": "For current first-years at EMEA universities who have faced barriers to advanced STEM opportunities, e.g. financial hardship or being first-generation. No finance background is needed; travel and housing are covered."
@@ -4005,7 +4005,7 @@
    "status": "opening_soon",
    "url": "https://www.schroders.com/en/global/individual/careers/spring-insight-programme/",
    "source": "https://www.schroders.com/en/global/individual/careers/spring-insight-programme/",
-   "checked": "2026-10-19",
+   "checked": "2026-11-02",
    "confidence": "estimated",
    "visa": "",
    "notes": "Two-day programme each April for first-years in any subject (or second-years on 4-year courses)."
@@ -4023,11 +4023,11 @@
    "location": "London",
    "opens": null,
    "deadline": null,
-   "deadline_note": "Official page (checked 29 Oct 2026): applications for the 2027 graduate intake will open in November 2026. No deadline published. You can apply to only one scheme or internship at a time.",
+   "deadline_note": "Official page (checked 2 Nov 2026): applications for the 2027 graduate intake will open in November 2026. No deadline published. You can apply to only one scheme or internship at a time.",
    "status": "opening_soon",
    "url": "https://group.mandg.com/careers/routes-into-mandg/graduate-opportunities/vacancies",
    "source": "https://group.mandg.com/careers/routes-into-mandg/graduate-opportunities/vacancies",
-   "checked": "2026-10-29",
+   "checked": "2026-11-02",
    "confidence": "confirmed",
    "visa": "",
    "notes": "2-3 year rotational schemes open to any degree, including asset management routes with IMC/CFA support. Not open yet: opening is due in November, so check the Workday portal then."
@@ -4065,11 +4065,11 @@
    "location": "London",
    "opens": null,
    "deadline": null,
-   "deadline_note": "Official page (checked 29 Oct 2026): internships typically open in November; no application deadlines, rolling. Assessment centres usually Jan-Feb. Only 2027 role shown was a Year in Industry placement, not a summer internship.",
+   "deadline_note": "Official page (checked 2 Nov 2026): internships typically open in November; no application deadlines, rolling. Assessment centres usually Jan-Feb. Only 2027 role shown was a Year in Industry placement, not a summer internship.",
    "status": "opening_soon",
    "url": "https://careers.legalandgeneral.com/summer-internships",
    "source": "https://careers.legalandgeneral.com/future-talent",
-   "checked": "2026-10-29",
+   "checked": "2026-11-02",
    "confidence": "estimated",
    "visa": "No sponsorship for summer internships.",
    "notes": "8-week internship (London, Cardiff, Hove) for penultimate-years on track for a 2:1. The 2026 tracks included Investment, Risk, Distribution and Credit Rating."
@@ -4155,7 +4155,7 @@
    "status": "open",
    "url": "https://www.bailliegifford.com/en/global/all-users/careers/early-careers/graduate-programmes/investment-research/how-to-apply/",
    "source": "https://www.bailliegifford.com/en/global/all-users/careers/early-careers/graduate-programmes/investment-research/how-to-apply/",
-   "checked": "2026-10-29",
+   "checked": "2026-11-02",
    "confidence": "confirmed",
    "visa": "Cannot sponsor visas for short-term programmes; check for the graduate role.",
    "notes": "Based in Edinburgh (relocation required). Any degree is accepted, and the firm says it uses no AI in recruitment. Process: form + CV, one-way video, online interview, then an assessment centre."
@@ -4456,7 +4456,7 @@
    "status": "open",
    "url": "https://careers.blackrock.com/en/job/london/2027-spring-insight-event-emea/45831/97150826752",
    "source": "https://careers.blackrock.com/en/job/london/2027-spring-insight-event-emea/45831/97150826752",
-   "checked": "2026-10-19",
+   "checked": "2026-11-02",
    "confidence": "confirmed",
    "visa": "",
    "notes": "Week-long event in April 2027 at BlackRock's London and Edinburgh offices for students of any degree graduating in 2029 (i.e. current first-years on 3-year courses). You may apply to only one BlackRock programme, choosing up to two functions."
@@ -5100,7 +5100,7 @@
    "status": "opening_soon",
    "url": "https://www.povertyactionlab.org/page/recruitment-timeline",
    "source": "https://www.povertyactionlab.org/page/recruitment-timeline",
-   "checked": "2026-10-22",
+   "checked": "2026-11-02",
    "confidence": "confirmed",
    "visa": "Varies by office. Some Europe posts require EU work authorisation and offer no sponsorship; field posts often favour nationals.",
    "notes": "RCT research associate roles are a classic stepping stone to a development economics PhD. Education requirements vary by posting, so read each one. The 2026 J-PAL Europe roles found were based in Paris and Spain, not London."
@@ -5159,11 +5159,11 @@
    "location": "London, UK (SOAS and other UBEL partners)",
    "opens": "2026-09-14",
    "deadline": "2026-11-09",
-   "deadline_note": "Re-checked 29 Oct 2026: pre-registration deadline is 30 October 2026 (23:59) and the preliminary application deadline is 9 November 2026 (23:59). Pathway decisions 11 Dec 2026; full applications (if shortlisted) due 1 February 2027; awards confirmed w/c 19 April 2027. SOAS may set earlier internal dates.",
+   "deadline_note": "Re-checked 2 Nov 2026: the pre-registration deadline (30 October 2026, 23:59) has passed; the preliminary application deadline is 9 November 2026 (23:59). Pathway decisions 11 Dec 2026; full applications (if shortlisted) open 14 Dec and are due 1 February 2027; awards confirmed w/c 19 April 2027. SOAS may set earlier internal dates.",
    "status": "open",
    "url": "https://ubel-dtp.ac.uk/esrc-studentships/",
    "source": "https://ubel-dtp.ac.uk/esrc-studentships/",
-   "checked": "2026-10-29",
+   "checked": "2026-11-02",
    "confidence": "confirmed",
    "visa": "Open to home and international students, but international awards are capped at 30% (in 2025 only 10 of 485 international applicants were funded). UBEL does not cover visa costs.",
    "notes": "Fully funded PhD: the 2026/27 minimum stipend is £23,805 with London allowance, plus fees. This is the main UK route for MSc economists heading to a PhD; also see the SOAS ESRC page and talk to a potential supervisor before 30 October."
@@ -5423,7 +5423,7 @@
    "status": "open",
    "url": "https://uguk-chire.icims.com/jobs/4083/analyst%2c-london/job?in_iframe=1",
    "source": "https://uguk-chire.icims.com/jobs/4083/analyst%2c-london/job?in_iframe=1",
-   "checked": "2026-10-29",
+   "checked": "2026-11-02",
    "confidence": "confirmed",
    "visa": "Not stated in posting.",
    "notes": "Open to final-year undergraduates or Master's students with expected graduation Dec 2026-Jul 2027; SOAS Sept 2027 finishers should check with the firm. Litigation/finance economics; cover letter, CV and transcript."
@@ -5788,11 +5788,11 @@
    "location": "London or Darlington",
    "opens": null,
    "deadline": "2026-11-05",
-   "deadline_note": "Re-checked 29 Oct 2026: the programme page (marked as applying to the 2026-2027 campaign) states 'Application deadline: 12 noon on 5 November 2026'. The opening date is not stated.",
+   "deadline_note": "Re-checked 2 Nov 2026: the programme page (marked as applying to the 2026-2027 campaign) states 'Application deadline: 12 noon on 5 November 2026'. The opening date is not stated.",
    "status": "open",
    "url": "https://hmtreasurycareers.co.uk/graduate-policy-programme/",
    "source": "https://hmtreasurycareers.co.uk/graduate-policy-programme/application-process-timeline/",
-   "checked": "2026-10-29",
+   "checked": "2026-11-02",
    "confidence": "confirmed",
    "visa": "The eligibility page says only British and EEA nationals are accepted under the Civil Service Nationality Rules. You need the right to work without sponsorship; Student visa holders are not accepted, and you normally need 3 of the last 5 years' UK residence for security clearance.",
    "notes": "Policy Adviser graduate entry; any degree, 2:2 or above (on track is fine). Economists enter HMT via the GES schemes above."
@@ -5853,11 +5853,11 @@
    "location": "London or Leeds (hybrid)",
    "opens": null,
    "deadline": null,
-   "deadline_note": "Checked 29 Oct 2026: the Bank's page says 'Applications are closed, but you can register your interest for our 2027 opportunities' (page last updated 15 April 2026). The Future Talent hub says pages will be updated ahead of the 2027 round in autumn 2026; no 2027 dates yet. Past rounds had early-December deadlines (unconfirmed for 2027).",
+   "deadline_note": "Checked 2 Nov 2026: the Bank's page says 'Applications are closed, but you can register your interest for our 2027 opportunities' (page last updated 15 April 2026). The Future Talent hub says pages will be updated ahead of the 2027 round in autumn 2026; no 2027 dates yet. Past rounds had early-December deadlines (unconfirmed for 2027).",
    "status": "opening_soon",
    "url": "https://www.bankofengland.co.uk/careers/future-talent/internships",
    "source": "https://www.bankofengland.co.uk/careers/future-talent",
-   "checked": "2026-10-29",
+   "checked": "2026-11-02",
    "confidence": "estimated",
    "visa": "Interns without existing right to work must be studying at a UK university and hold a valid Student visa (or other leave) with appropriate work rights. National Security Vetting is required; applicants who have lived abroad in the last 5 years must declare it.",
    "notes": "10-week paid internship. There are separate options for penultimate-year students and for final-year students going on to a 2-year master's. Only one Future Talent application is allowed per round."
@@ -5874,11 +5874,11 @@
    "location": "London or Leeds",
    "opens": null,
    "deadline": null,
-   "deadline_note": "Checked 29 Oct 2026: the Bank's page says 'Applications are closed, but you can register your interest for our 2027 opportunities' (page last updated 15 April 2026). The Future Talent hub says pages will be updated ahead of the 2027 round in autumn 2026; no 2027 dates yet. Past rounds had early-December deadlines (unconfirmed for 2027).",
+   "deadline_note": "Checked 2 Nov 2026: the Bank's page says 'Applications are closed, but you can register your interest for our 2027 opportunities' (page last updated 15 April 2026). The Future Talent hub says pages will be updated ahead of the 2027 round in autumn 2026; no 2027 dates yet. Past rounds had early-December deadlines (unconfirmed for 2027).",
    "status": "opening_soon",
    "url": "https://www.bankofengland.co.uk/careers/future-talent/internships",
    "source": "https://www.bankofengland.co.uk/careers/future-talent/internships",
-   "checked": "2026-10-29",
+   "checked": "2026-11-02",
    "confidence": "estimated",
    "visa": "As for Bank of England internships: right to work, or a Student visa at a UK university with appropriate work rights; National Security Vetting.",
    "notes": "For penultimate-year students of Black heritage. Includes the 10-week internship plus at least GBP 5,000 towards living costs for a year at university."
@@ -5917,11 +5917,11 @@
    "location": "London / Leeds",
    "opens": null,
    "deadline": null,
-   "deadline_note": "Checked 29 Oct 2026: the Bank's page says 'Applications are closed, but you can register your interest for our 2027 opportunities' (page last updated 15 April 2026). The Future Talent hub says pages will be updated ahead of the 2027 round in autumn 2026; no 2027 dates yet.",
+   "deadline_note": "Checked 2 Nov 2026: the Bank's page says 'Applications are closed, but you can register your interest for our 2027 opportunities' (page last updated 15 April 2026). The Future Talent hub says pages will be updated ahead of the 2027 round in autumn 2026; no 2027 dates yet.",
    "status": "opening_soon",
    "url": "https://www.bankofengland.co.uk/careers/future-talent/graduate-programme",
    "source": "https://www.bankofengland.co.uk/careers/future-talent",
-   "checked": "2026-10-29",
+   "checked": "2026-11-02",
    "confidence": "estimated",
    "visa": "Visa sponsorship may be offered in specific circumstances (case-by-case); the applicant pays Skilled Worker visa and IHS costs. National Security Vetting required.",
    "notes": "24-month rotational programme leading to a permanent role; streams include economics/policy areas. Only the first application per round is considered. Masters economists can apply through the Postgraduate stream (Monetary Analysis, International, Markets)."
@@ -6118,7 +6118,7 @@
    "status": "unknown",
    "url": "https://careers.ofcom.org.uk/careers/early-careers/",
    "source": "https://careers.ofcom.org.uk/careers/early-careers/",
-   "checked": "2026-10-19",
+   "checked": "2026-11-02",
    "confidence": "estimated",
    "visa": "Not stated; check the advert.",
    "notes": "Six-week paid placement for Black African, Black Caribbean and Black British students at UK universities, open to any year of study. One of the few options here open to first-years."
@@ -6184,7 +6184,7 @@
    "status": "opening_soon",
    "url": "https://www.instituteforgovernment.org.uk/about-us/careers/internship-programme",
    "source": "https://www.instituteforgovernment.org.uk/about-us/careers/internship-programme",
-   "checked": "2026-10-19",
+   "checked": "2026-11-02",
    "confidence": "confirmed",
    "visa": "Not stated on the official page; a third-party listing claims IfG cannot sponsor visas (unverified).",
    "notes": "Paid 12-month research internship starting September, working on civil service, public finances, devolution and similar; needs to be London-based. Sign up to the IfG recruitment mailing list."
